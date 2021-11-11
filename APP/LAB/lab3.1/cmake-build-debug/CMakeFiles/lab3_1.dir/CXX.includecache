@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/pattern_matching .h
+iostream
+-
+cstring
+-
+
+C:/Users/cherry/Documents/workspace/C++/DataStructures/APP/LAB/lab3.1/main.cpp
+iostream
+-
+pattern_matching .h
+C:/Users/cherry/Documents/workspace/C++/DataStructures/APP/LAB/lab3.1/pattern_matching .h
+

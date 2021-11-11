@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/labyrinth.h
+seq_queue.h
+../include/seq_queue.h
+iostream
+-
+queue
+-
+cstring
+-
+
+../include/seq_queue.h
+iostream
+-
+
+C:/Users/cherry/Documents/workspace/C++/DataStructures/APP/LAB/lab2-3/main.cpp
+iostream
+-
+labyrinth.h
+C:/Users/cherry/Documents/workspace/C++/DataStructures/APP/LAB/lab2-3/labyrinth.h
+

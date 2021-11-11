@@ -1,0 +1,12 @@
+C:/Users/cherry/Desktop/workspace/C++/DataStructures/APP/Huffman/build/CMakeFiles/edit_cache.dir
+C:/Users/cherry/Desktop/workspace/C++/DataStructures/APP/Huffman/build/CMakeFiles/main.dir
+C:/Users/cherry/Desktop/workspace/C++/DataStructures/APP/Huffman/build/CMakeFiles/rebuild_cache.dir
+C:/Users/cherry/Desktop/workspace/C++/DataStructures/APP/Huffman/build/controller/CMakeFiles/controller.dir
+C:/Users/cherry/Desktop/workspace/C++/DataStructures/APP/Huffman/build/controller/CMakeFiles/edit_cache.dir
+C:/Users/cherry/Desktop/workspace/C++/DataStructures/APP/Huffman/build/controller/CMakeFiles/rebuild_cache.dir
+C:/Users/cherry/Desktop/workspace/C++/DataStructures/APP/Huffman/build/utils/CMakeFiles/utils.dir
+C:/Users/cherry/Desktop/workspace/C++/DataStructures/APP/Huffman/build/utils/CMakeFiles/edit_cache.dir
+C:/Users/cherry/Desktop/workspace/C++/DataStructures/APP/Huffman/build/utils/CMakeFiles/rebuild_cache.dir
+C:/Users/cherry/Desktop/workspace/C++/DataStructures/APP/Huffman/build/model/CMakeFiles/model.dir
+C:/Users/cherry/Desktop/workspace/C++/DataStructures/APP/Huffman/build/model/CMakeFiles/edit_cache.dir
+C:/Users/cherry/Desktop/workspace/C++/DataStructures/APP/Huffman/build/model/CMakeFiles/rebuild_cache.dir

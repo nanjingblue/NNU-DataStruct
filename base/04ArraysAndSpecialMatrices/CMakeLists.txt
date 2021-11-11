@@ -1,0 +1,6 @@
+include_directories(Head)
+
+add_executable(specialMatrices01 specialMatrices01.cpp)
+add_executable(specialMatrices02 specialMatrices02.cpp)
+add_executable(specialMatrices03 specialMatrices03.cpp)
+add_executable(specialMatrices04 specialMatrices04.cpp)

@@ -1,0 +1,16 @@
+cmake_minimum_required(VERSION 3.19)
+project(DataStructures)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(DataStructures main.cpp)
+add_executable(main2 main2.cpp)
+add_executable(main3 main3.cpp)
+add_executable(main4 main4.cpp)
+add_subdirectory(01LineTable)
+add_subdirectory(02StacksAndQueues)
+add_subdirectory(03String)
+add_subdirectory(04ArraysAndSpecialMatrices)
+add_subdirectory(05GeneralizedTable)
+add_subdirectory(06TreeAndBiTree)
+add_subdirectory(THU_DS)

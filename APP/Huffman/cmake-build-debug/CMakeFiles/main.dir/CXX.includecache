@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../controller/TreeCreator.h
+iostream
+-
+cstdlib
+-
+../model/Huffman.h
+../model/Huffman.h
+../utils/TreeCreatorUtils.h
+../utils/TreeCreatorUtils.h
+
+../model/Huffman.h
+iostream
+-
+vector
+-
+
+../utils/TreeCreatorUtils.h
+iostream
+-
+stdlib.h
+-
+
+C:/Users/cherry/Desktop/workspace/C++/DataStructures/APP/Huffman/main.cpp
+iostream
+-
+assert.h
+-
+TreeCreator.h
+C:/Users/cherry/Desktop/workspace/C++/DataStructures/APP/Huffman/TreeCreator.h
+

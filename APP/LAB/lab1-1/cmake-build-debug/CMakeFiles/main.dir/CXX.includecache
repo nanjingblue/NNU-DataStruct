@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/cherry/Documents/workspace/C++/DataStructures/APP/LAB/lab1-1/SeqList.h
+iostream
+-
+
+C:/Users/cherry/Documents/workspace/C++/DataStructures/APP/LAB/lab1-1/main.cpp
+iostream
+-
+SeqList.h
+C:/Users/cherry/Documents/workspace/C++/DataStructures/APP/LAB/lab1-1/SeqList.h
+

@@ -1,0 +1,12 @@
+C:/Users/cherry/Desktop/workspace/C++/DataStructures/APP/Huffman/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/cherry/Desktop/workspace/C++/DataStructures/APP/Huffman/cmake-build-debug/CMakeFiles/main.dir
+C:/Users/cherry/Desktop/workspace/C++/DataStructures/APP/Huffman/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/cherry/Desktop/workspace/C++/DataStructures/APP/Huffman/cmake-build-debug/controller/CMakeFiles/controller.dir
+C:/Users/cherry/Desktop/workspace/C++/DataStructures/APP/Huffman/cmake-build-debug/controller/CMakeFiles/edit_cache.dir
+C:/Users/cherry/Desktop/workspace/C++/DataStructures/APP/Huffman/cmake-build-debug/controller/CMakeFiles/rebuild_cache.dir
+C:/Users/cherry/Desktop/workspace/C++/DataStructures/APP/Huffman/cmake-build-debug/utils/CMakeFiles/utils.dir
+C:/Users/cherry/Desktop/workspace/C++/DataStructures/APP/Huffman/cmake-build-debug/utils/CMakeFiles/edit_cache.dir
+C:/Users/cherry/Desktop/workspace/C++/DataStructures/APP/Huffman/cmake-build-debug/utils/CMakeFiles/rebuild_cache.dir
+C:/Users/cherry/Desktop/workspace/C++/DataStructures/APP/Huffman/cmake-build-debug/model/CMakeFiles/model.dir
+C:/Users/cherry/Desktop/workspace/C++/DataStructures/APP/Huffman/cmake-build-debug/model/CMakeFiles/edit_cache.dir
+C:/Users/cherry/Desktop/workspace/C++/DataStructures/APP/Huffman/cmake-build-debug/model/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/see_a_doctor.h
+seq_queue.h
+../include/seq_queue.h
+iostream
+-
+cstdlib
+-
+ctime
+-
+
+../include/seq_queue.h
+iostream
+-
+
+../include/test_seq_queue.h
+seq_queue.h
+../include/seq_queue.h
+iostream
+-
+
+C:/Users/cherry/Documents/workspace/C++/DataStructures/APP/DS_HW_4/lab2-2/main.cpp
+iostream
+-
+test_seq_queue.h
+C:/Users/cherry/Documents/workspace/C++/DataStructures/APP/DS_HW_4/lab2-2/test_seq_queue.h
+see_a_doctor.h
+C:/Users/cherry/Documents/workspace/C++/DataStructures/APP/DS_HW_4/lab2-2/see_a_doctor.h
+

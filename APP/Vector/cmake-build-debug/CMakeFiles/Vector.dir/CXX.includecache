@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/cherry/Desktop/workspace/C++/DataStructures/APP/Vector/Vector.h
+
+C:/Users/cherry/Desktop/workspace/C++/DataStructures/APP/Vector/main.cpp
+iostream
+-
+Vector.h
+C:/Users/cherry/Desktop/workspace/C++/DataStructures/APP/Vector/Vector.h
+

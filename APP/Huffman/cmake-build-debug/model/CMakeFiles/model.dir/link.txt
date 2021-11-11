@@ -1,0 +1,2 @@
+C:\env\mingw64\bin\ar.exe qc libmodel.a CMakeFiles/model.dir/Huffman.cpp.obj
+C:\env\mingw64\bin\ranlib.exe libmodel.a

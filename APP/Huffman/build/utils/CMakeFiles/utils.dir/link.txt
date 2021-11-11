@@ -1,0 +1,2 @@
+C:\env\mingw64\bin\ar.exe qc libutils.a CMakeFiles/utils.dir/TreeCreatorUtils.cpp.obj
+C:\env\mingw64\bin\ranlib.exe libutils.a

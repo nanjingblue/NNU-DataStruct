@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/get_next.h
+iostream
+-
+string
+-
+cstring
+-
+
+../include/reverse_words.h
+sub.h
+../include/sub.h
+iostream
+-
+cstring
+-
+
+../include/special_matrices.h
+
+../include/sub.h
+iostream
+-
+cstring
+-
+get_next.h
+../include/get_next.h
+
+C:/Users/cherry/Documents/workspace/C++/DataStructures/APP/DS_HW_5/HW_5/main.cpp
+iostream
+-
+get_next.h
+C:/Users/cherry/Documents/workspace/C++/DataStructures/APP/DS_HW_5/HW_5/get_next.h
+sub.h
+C:/Users/cherry/Documents/workspace/C++/DataStructures/APP/DS_HW_5/HW_5/sub.h
+reverse_words.h
+C:/Users/cherry/Documents/workspace/C++/DataStructures/APP/DS_HW_5/HW_5/reverse_words.h
+special_matrices.h
+C:/Users/cherry/Documents/workspace/C++/DataStructures/APP/DS_HW_5/HW_5/special_matrices.h
+

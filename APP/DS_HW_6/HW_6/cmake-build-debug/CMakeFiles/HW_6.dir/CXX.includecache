@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/g_list.h
+iostream
+-
+string
+-
+
+C:/Users/cherry/Documents/workspace/C++/DataStructures/APP/DS_HW_6/HW_6/main.cpp
+iostream
+-
+g_list.h
+C:/Users/cherry/Documents/workspace/C++/DataStructures/APP/DS_HW_6/HW_6/g_list.h
+
