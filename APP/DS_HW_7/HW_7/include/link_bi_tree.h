@@ -29,6 +29,7 @@ class BiTree {
 private:
     BiNode<T> * root;       // 根指针
     BiNode<T> * createByPre(vector<T> &pre, int &i);        // 与由先序序列构造二叉树有关
+    BiNode<T> * createByPost(vector<T> &post, int &i);        // 与由后序序列构造二叉树有关
     BiNode<T> * createByPreMid(vector<T> &pre, vector<T> &mid, int ipre, int imid, int n);  // 与由先序和中序序列构造二叉树有关
     BiNode<T> * createByMidPost(vector<T> &mid, vector<T> &post, int imid, int ipost, int n);  // 与由中序和后序序列构造二叉树有关
     BiNode<T> * copy(BiNode<T> *p);     // 与拷贝构造二叉树有关
@@ -56,6 +57,7 @@ private:
 public:
     BiTree();
     explicit BiTree(vector<T> &pre);     // 由先序序列构造二叉树
+    BiTree(vector<T> &post, string type);   // 由后序序列构造二叉树
     BiTree(vector<T> &pre, vector<T> &mid);     // 由先序、中序序列构造二叉树
     BiTree(vector<T> &mid, vector<T> &post, const string& type);    // 由中序、后序序列构造二叉树
     BiTree(BiTree<T> &tree);    // 拷贝构造函数
@@ -157,6 +159,20 @@ BiNode<T> *BiTree<T>::createByPre(vector<T> &pre, int &i) {
 }
 
 template<class T>
+BiNode<T> *BiTree<T>::createByPost(vector<T> &post, int &i) {
+    T e = post[i];       // 提取当前数据
+    i--;
+    if(e == '*')
+        return NULL;
+    auto *p = new BiNode<T>;   // 创建新结点
+    p->data = e;
+    p->rightChild = createByPost(post, i);     // 创建右子树
+    p->leftChild = createByPost(post,i);     // 创建左子树
+    return p;
+}
+
+
+template<class T>
 BiTree<T>::BiTree() {
     // 空树
     root = nullptr;
@@ -169,6 +185,12 @@ BiTree<T>::BiTree(vector<T> &pre) {
     // abd**e**cf***
     int i = 0;
     root = createByPre(pre, i);
+}
+
+template<class T>
+BiTree<T>::BiTree(vector<T> &post, string type) {
+    int n = post.size() - 2;
+    root = createByPost(post, n);
 }
 
 template<class T>
