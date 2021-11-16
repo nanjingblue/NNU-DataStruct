@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../02StacksAndQueues/Head/LinkStack.h
+iostream
+-
+
+C:/Users/cherry/Documents/workspace/C++/DataStructures/base/02StacksAndQueues/StackExercise03.cpp
+iostream
+-
+LinkStack.h
+C:/Users/cherry/Documents/workspace/C++/DataStructures/base/02StacksAndQueues/LinkStack.h
+

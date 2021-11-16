@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../01LineTable/Head/LinkList.h
+iostream
+-
+vector
+-
+algorithm
+-
+
+C:/Users/cherry/Desktop/workspace/C++/DataStructures/base/01LineTable/demo01.cpp
+iostream
+-
+LinkList.h
+C:/Users/cherry/Desktop/workspace/C++/DataStructures/base/01LineTable/LinkList.h
+

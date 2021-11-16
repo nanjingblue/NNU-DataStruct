@@ -52,12 +52,12 @@ T SeqQueue<T, MAXSIZE>::pop() {
 
 template<class T, int MAXSIZE>
 T SeqQueue<T, MAXSIZE>::Front() {
-    return data[(front+1) % MAXSIZE];
+    return data[(front + 1) % MAXSIZE];
 }
 
 template<class T, int MAXSIZE>
 T SeqQueue<T, MAXSIZE>::back() {
-    return data[(rear+1) % MAXSIZE];
+    return data[(rea + 1) % MAXSIZE];
 }
 
 template<class T, int MAXSIZE>

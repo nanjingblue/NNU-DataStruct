@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../06TreeAndBiTree/Head/LinkBiTree.h
+iostream
+-
+vector
+-
+queue
+-
+
+C:/Users/cherry/Desktop/workspace/C++/DataStructures/06TreeAndBiTree/BiTree01.cpp
+iostream
+-
+vector
+-
+LinkBiTree.h
+C:/Users/cherry/Desktop/workspace/C++/DataStructures/06TreeAndBiTree/LinkBiTree.h
+

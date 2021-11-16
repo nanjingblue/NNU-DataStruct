@@ -1,3 +1,4 @@
+
 //
 // Created by cherry on 2021/10/24.
 //
@@ -191,20 +192,25 @@ void GList<T>::Replace(GListNode<T> *p, T x1, T x2) {
 
 template<class T>
 GListNode<T> * GList<T>::Delete(GListNode<T> *p, T x) {
-    if(p == NULL)
-        return NULL;
-    GListNode<T> * q = Delete(p->next, x);
-    if(p->type == ATOM) {
-        if(p->data == x) {
-            delete []p;
-            return q;
+    if (p == nullptr) return nullptr;
+    if (p->type == LIST) {
+        if (p->sublist && p->sublist->type == ATOM && p->sublist->data == x) {
+            GListNode<T> * temp = p->sublist;
+            p->sublist = p->sublist->next;
+            delete temp;
+            Delete(p);
+        } else {
+            Delete(p->sublist);
         }
     }
-    p->next = q;
-    if(p->type == LIST) {
-        p->sublist = Delete(p->sublist, x);
+    if (p->next && p->next->type == ATOM && p->next->data = x) {
+        GListNode<T> *temp = p->next;
+        p->next = p->next->next;
+        delete temp;
+        Delete(p);
+    } else {
+        Delete(p->next);
     }
-    return p;
 }
 
 template<class T>

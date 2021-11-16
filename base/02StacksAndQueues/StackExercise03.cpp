@@ -8,14 +8,14 @@ using namespace std;
 
 const char h[] = {'A', 'B', 'C', 'D', 'E', 'F'};
 // 存储结果栈：stk, 原十进制：val 要转化的进制：n
-void tenToN(LinkStack<int> stk, int val, int n) {
+void tenToN(LinkStack<int> &stk, int val, int n) {
     if(val == 0) {
         while (!stk.Empty()) {
             int x = stk.Pop();
             if(x < 10) {
                 cout << x;
             } else {
-                cout << h[x%10];
+                cout << h[x % 10];
             }
         }
         cout << endl;

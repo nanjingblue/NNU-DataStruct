@@ -1,0 +1,1486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="DataStructures"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\01LineTable\;CMake Files\02StacksAndQueues\;CMake Files\03String\;CMake Files\04ArraysAndSpecialMatrices\;CMake Files\05GeneralizedTable\;CMake Files\06TreeAndBiTree\;CMake Files\THU_DS\;CMake Files\THU_DS\BibaryTree\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DataStructures">
+				<Option output="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/DataStructures.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/Makefile&quot;  VERBOSE=1 DataStructures"/>
+					<CompileFile command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DataStructures/fast">
+				<Option output="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/DataStructures.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/Makefile&quot;  VERBOSE=1 DataStructures/fast"/>
+					<CompileFile command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main2">
+				<Option output="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/main2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/Makefile&quot;  VERBOSE=1 main2"/>
+					<CompileFile command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main2/fast">
+				<Option output="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/main2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/Makefile&quot;  VERBOSE=1 main2/fast"/>
+					<CompileFile command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main3">
+				<Option output="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/main3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/Makefile&quot;  VERBOSE=1 main3"/>
+					<CompileFile command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main3/fast">
+				<Option output="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/main3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/Makefile&quot;  VERBOSE=1 main3/fast"/>
+					<CompileFile command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main4">
+				<Option output="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/main4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/Makefile&quot;  VERBOSE=1 main4"/>
+					<CompileFile command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main4/fast">
+				<Option output="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/main4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/Makefile&quot;  VERBOSE=1 main4/fast"/>
+					<CompileFile command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo01">
+				<Option output="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/01LineTable/demo01.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/01LineTable"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/01LineTable/Head"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/01LineTable/Makefile&quot;  VERBOSE=1 demo01"/>
+					<CompileFile command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/01LineTable/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/01LineTable/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/01LineTable/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo01/fast">
+				<Option output="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/01LineTable/demo01.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/01LineTable"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/01LineTable/Head"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/01LineTable/Makefile&quot;  VERBOSE=1 demo01/fast"/>
+					<CompileFile command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/01LineTable/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/01LineTable/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/01LineTable/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo02">
+				<Option output="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/01LineTable/demo02.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/01LineTable"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/01LineTable/Head"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/01LineTable/Makefile&quot;  VERBOSE=1 demo02"/>
+					<CompileFile command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/01LineTable/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/01LineTable/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/01LineTable/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo02/fast">
+				<Option output="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/01LineTable/demo02.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/01LineTable"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/01LineTable/Head"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/01LineTable/Makefile&quot;  VERBOSE=1 demo02/fast"/>
+					<CompileFile command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/01LineTable/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/01LineTable/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/01LineTable/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="StackApp02">
+				<Option output="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/StackApp02.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/02StacksAndQueues/Head"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 StackApp02"/>
+					<CompileFile command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="StackApp02/fast">
+				<Option output="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/StackApp02.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/02StacksAndQueues/Head"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 StackApp02/fast"/>
+					<CompileFile command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stack01">
+				<Option output="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/stack01.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/02StacksAndQueues/Head"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 stack01"/>
+					<CompileFile command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stack01/fast">
+				<Option output="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/stack01.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/02StacksAndQueues/Head"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 stack01/fast"/>
+					<CompileFile command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="StackExercise04">
+				<Option output="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/StackExercise04.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/02StacksAndQueues/Head"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 StackExercise04"/>
+					<CompileFile command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="StackExercise04/fast">
+				<Option output="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/StackExercise04.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/02StacksAndQueues/Head"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 StackExercise04/fast"/>
+					<CompileFile command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="StackApp01">
+				<Option output="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/StackApp01.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/02StacksAndQueues/Head"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 StackApp01"/>
+					<CompileFile command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="StackApp01/fast">
+				<Option output="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/StackApp01.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/02StacksAndQueues/Head"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 StackApp01/fast"/>
+					<CompileFile command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stack02">
+				<Option output="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/stack02.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/02StacksAndQueues/Head"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 stack02"/>
+					<CompileFile command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stack02/fast">
+				<Option output="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/stack02.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/02StacksAndQueues/Head"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 stack02/fast"/>
+					<CompileFile command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="StackApp03">
+				<Option output="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/StackApp03.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/02StacksAndQueues/Head"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 StackApp03"/>
+					<CompileFile command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="StackApp03/fast">
+				<Option output="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/StackApp03.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/02StacksAndQueues/Head"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 StackApp03/fast"/>
+					<CompileFile command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="StackExercise01">
+				<Option output="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/StackExercise01.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/02StacksAndQueues/Head"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 StackExercise01"/>
+					<CompileFile command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="StackExercise01/fast">
+				<Option output="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/StackExercise01.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/02StacksAndQueues/Head"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 StackExercise01/fast"/>
+					<CompileFile command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="StackExercise02">
+				<Option output="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/StackExercise02.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/02StacksAndQueues/Head"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 StackExercise02"/>
+					<CompileFile command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="StackExercise02/fast">
+				<Option output="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/StackExercise02.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/02StacksAndQueues/Head"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 StackExercise02/fast"/>
+					<CompileFile command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="StackExercise03">
+				<Option output="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/StackExercise03.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/02StacksAndQueues/Head"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 StackExercise03"/>
+					<CompileFile command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="StackExercise03/fast">
+				<Option output="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/StackExercise03.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/02StacksAndQueues/Head"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 StackExercise03/fast"/>
+					<CompileFile command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="StackExercise05">
+				<Option output="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/StackExercise05.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/02StacksAndQueues/Head"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 StackExercise05"/>
+					<CompileFile command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="StackExercise05/fast">
+				<Option output="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/StackExercise05.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/02StacksAndQueues/Head"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 StackExercise05/fast"/>
+					<CompileFile command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Queue01">
+				<Option output="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Queue01.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/02StacksAndQueues/Head"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 Queue01"/>
+					<CompileFile command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Queue01/fast">
+				<Option output="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Queue01.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/02StacksAndQueues/Head"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 Queue01/fast"/>
+					<CompileFile command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Queue02">
+				<Option output="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Queue02.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/02StacksAndQueues/Head"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 Queue02"/>
+					<CompileFile command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Queue02/fast">
+				<Option output="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Queue02.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/02StacksAndQueues/Head"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 Queue02/fast"/>
+					<CompileFile command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="QueueApp01">
+				<Option output="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/QueueApp01.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/02StacksAndQueues/Head"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 QueueApp01"/>
+					<CompileFile command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="QueueApp01/fast">
+				<Option output="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/QueueApp01.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/02StacksAndQueues/Head"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 QueueApp01/fast"/>
+					<CompileFile command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="specialMatrices01">
+				<Option output="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/04ArraysAndSpecialMatrices/specialMatrices01.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/04ArraysAndSpecialMatrices"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/04ArraysAndSpecialMatrices/Head"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/04ArraysAndSpecialMatrices/Makefile&quot;  VERBOSE=1 specialMatrices01"/>
+					<CompileFile command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/04ArraysAndSpecialMatrices/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/04ArraysAndSpecialMatrices/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/04ArraysAndSpecialMatrices/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="specialMatrices01/fast">
+				<Option output="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/04ArraysAndSpecialMatrices/specialMatrices01.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/04ArraysAndSpecialMatrices"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/04ArraysAndSpecialMatrices/Head"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/04ArraysAndSpecialMatrices/Makefile&quot;  VERBOSE=1 specialMatrices01/fast"/>
+					<CompileFile command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/04ArraysAndSpecialMatrices/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/04ArraysAndSpecialMatrices/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/04ArraysAndSpecialMatrices/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="specialMatrices02">
+				<Option output="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/04ArraysAndSpecialMatrices/specialMatrices02.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/04ArraysAndSpecialMatrices"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/04ArraysAndSpecialMatrices/Head"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/04ArraysAndSpecialMatrices/Makefile&quot;  VERBOSE=1 specialMatrices02"/>
+					<CompileFile command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/04ArraysAndSpecialMatrices/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/04ArraysAndSpecialMatrices/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/04ArraysAndSpecialMatrices/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="specialMatrices02/fast">
+				<Option output="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/04ArraysAndSpecialMatrices/specialMatrices02.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/04ArraysAndSpecialMatrices"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/04ArraysAndSpecialMatrices/Head"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/04ArraysAndSpecialMatrices/Makefile&quot;  VERBOSE=1 specialMatrices02/fast"/>
+					<CompileFile command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/04ArraysAndSpecialMatrices/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/04ArraysAndSpecialMatrices/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/04ArraysAndSpecialMatrices/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="specialMatrices03">
+				<Option output="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/04ArraysAndSpecialMatrices/specialMatrices03.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/04ArraysAndSpecialMatrices"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/04ArraysAndSpecialMatrices/Head"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/04ArraysAndSpecialMatrices/Makefile&quot;  VERBOSE=1 specialMatrices03"/>
+					<CompileFile command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/04ArraysAndSpecialMatrices/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/04ArraysAndSpecialMatrices/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/04ArraysAndSpecialMatrices/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="specialMatrices03/fast">
+				<Option output="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/04ArraysAndSpecialMatrices/specialMatrices03.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/04ArraysAndSpecialMatrices"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/04ArraysAndSpecialMatrices/Head"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/04ArraysAndSpecialMatrices/Makefile&quot;  VERBOSE=1 specialMatrices03/fast"/>
+					<CompileFile command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/04ArraysAndSpecialMatrices/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/04ArraysAndSpecialMatrices/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/04ArraysAndSpecialMatrices/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="specialMatrices04">
+				<Option output="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/04ArraysAndSpecialMatrices/specialMatrices04.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/04ArraysAndSpecialMatrices"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/04ArraysAndSpecialMatrices/Head"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/04ArraysAndSpecialMatrices/Makefile&quot;  VERBOSE=1 specialMatrices04"/>
+					<CompileFile command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/04ArraysAndSpecialMatrices/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/04ArraysAndSpecialMatrices/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/04ArraysAndSpecialMatrices/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="specialMatrices04/fast">
+				<Option output="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/04ArraysAndSpecialMatrices/specialMatrices04.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/04ArraysAndSpecialMatrices"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/04ArraysAndSpecialMatrices/Head"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/04ArraysAndSpecialMatrices/Makefile&quot;  VERBOSE=1 specialMatrices04/fast"/>
+					<CompileFile command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/04ArraysAndSpecialMatrices/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/04ArraysAndSpecialMatrices/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/04ArraysAndSpecialMatrices/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list01">
+				<Option output="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/05GeneralizedTable/list01.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/05GeneralizedTable"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/05GeneralizedTable/Head"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/05GeneralizedTable/Makefile&quot;  VERBOSE=1 list01"/>
+					<CompileFile command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/05GeneralizedTable/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/05GeneralizedTable/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/05GeneralizedTable/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list01/fast">
+				<Option output="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/05GeneralizedTable/list01.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/05GeneralizedTable"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/05GeneralizedTable/Head"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/05GeneralizedTable/Makefile&quot;  VERBOSE=1 list01/fast"/>
+					<CompileFile command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/05GeneralizedTable/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/05GeneralizedTable/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/05GeneralizedTable/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BiTree01">
+				<Option output="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/06TreeAndBiTree/BiTree01.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/06TreeAndBiTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/06TreeAndBiTree/Head"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/06TreeAndBiTree/Makefile&quot;  VERBOSE=1 BiTree01"/>
+					<CompileFile command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/06TreeAndBiTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/06TreeAndBiTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/06TreeAndBiTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BiTree01/fast">
+				<Option output="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/06TreeAndBiTree/BiTree01.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/06TreeAndBiTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/06TreeAndBiTree/Head"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/06TreeAndBiTree/Makefile&quot;  VERBOSE=1 BiTree01/fast"/>
+					<CompileFile command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/06TreeAndBiTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/06TreeAndBiTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/06TreeAndBiTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ChildBrotherTree01">
+				<Option output="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/06TreeAndBiTree/ChildBrotherTree01.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/06TreeAndBiTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/06TreeAndBiTree/Head"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/06TreeAndBiTree/Makefile&quot;  VERBOSE=1 ChildBrotherTree01"/>
+					<CompileFile command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/06TreeAndBiTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/06TreeAndBiTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/06TreeAndBiTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ChildBrotherTree01/fast">
+				<Option output="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/06TreeAndBiTree/ChildBrotherTree01.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/06TreeAndBiTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/06TreeAndBiTree/Head"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/06TreeAndBiTree/Makefile&quot;  VERBOSE=1 ChildBrotherTree01/fast"/>
+					<CompileFile command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/06TreeAndBiTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/06TreeAndBiTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/06TreeAndBiTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BiTree02">
+				<Option output="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/06TreeAndBiTree/BiTree02.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/06TreeAndBiTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/06TreeAndBiTree/Head"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/06TreeAndBiTree/Makefile&quot;  VERBOSE=1 BiTree02"/>
+					<CompileFile command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/06TreeAndBiTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/06TreeAndBiTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/06TreeAndBiTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BiTree02/fast">
+				<Option output="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/06TreeAndBiTree/BiTree02.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/06TreeAndBiTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/06TreeAndBiTree/Head"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/06TreeAndBiTree/Makefile&quot;  VERBOSE=1 BiTree02/fast"/>
+					<CompileFile command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/06TreeAndBiTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/06TreeAndBiTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/06TreeAndBiTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HuffmanTree01">
+				<Option output="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/06TreeAndBiTree/HuffmanTree01.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/06TreeAndBiTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/06TreeAndBiTree/Head"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/06TreeAndBiTree/Makefile&quot;  VERBOSE=1 HuffmanTree01"/>
+					<CompileFile command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/06TreeAndBiTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/06TreeAndBiTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/06TreeAndBiTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HuffmanTree01/fast">
+				<Option output="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/06TreeAndBiTree/HuffmanTree01.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/06TreeAndBiTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/06TreeAndBiTree/Head"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/06TreeAndBiTree/Makefile&quot;  VERBOSE=1 HuffmanTree01/fast"/>
+					<CompileFile command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/06TreeAndBiTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/06TreeAndBiTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/06TreeAndBiTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ThuBiTree01">
+				<Option output="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/THU_DS/BibaryTree/ThuBiTree01.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/THU_DS/BibaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/THU_DS/include"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/THU_DS/BibaryTree/Makefile&quot;  VERBOSE=1 ThuBiTree01"/>
+					<CompileFile command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/THU_DS/BibaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/THU_DS/BibaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/THU_DS/BibaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ThuBiTree01/fast">
+				<Option output="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/THU_DS/BibaryTree/ThuBiTree01.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/THU_DS/BibaryTree"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/THU_DS/include"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/THU_DS/BibaryTree/Makefile&quot;  VERBOSE=1 ThuBiTree01/fast"/>
+					<CompileFile command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/THU_DS/BibaryTree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/THU_DS/BibaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/THU_DS/BibaryTree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/01LineTable/Head/LinkList.h">
+			<Option target="demo01"/>
+			<Option target="demo02"/>
+		</Unit>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/01LineTable/Head/demo01Test.h">
+			<Option target="demo01"/>
+		</Unit>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/01LineTable/Source/LinkList.cpp">
+			<Option target="demo01"/>
+		</Unit>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/01LineTable/Source/demo01Test.cpp">
+			<Option target="demo01"/>
+		</Unit>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/01LineTable/demo01.cpp">
+			<Option target="demo01"/>
+		</Unit>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/01LineTable/demo02.cpp">
+			<Option target="demo02"/>
+		</Unit>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/02StacksAndQueues/Head/LinkQueue.h">
+			<Option target="Queue02"/>
+			<Option target="QueueApp01"/>
+		</Unit>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/02StacksAndQueues/Head/LinkStack.h">
+			<Option target="StackExercise04"/>
+			<Option target="stack02"/>
+			<Option target="StackExercise01"/>
+			<Option target="StackExercise02"/>
+			<Option target="StackExercise03"/>
+			<Option target="StackExercise05"/>
+			<Option target="QueueApp01"/>
+		</Unit>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/02StacksAndQueues/Head/SeqQueue.h">
+			<Option target="Queue01"/>
+		</Unit>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/02StacksAndQueues/Head/SeqStack.h">
+			<Option target="StackApp02"/>
+			<Option target="stack01"/>
+			<Option target="StackApp01"/>
+			<Option target="StackApp03"/>
+		</Unit>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/02StacksAndQueues/Queue01.cpp">
+			<Option target="Queue01"/>
+		</Unit>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/02StacksAndQueues/Queue02.cpp">
+			<Option target="Queue02"/>
+		</Unit>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/02StacksAndQueues/QueueApp01.cpp">
+			<Option target="QueueApp01"/>
+		</Unit>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/02StacksAndQueues/Source/SeqStack.cpp">
+			<Option target="stack01"/>
+		</Unit>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/02StacksAndQueues/StackApp01.cpp">
+			<Option target="StackApp01"/>
+		</Unit>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/02StacksAndQueues/StackApp02.cpp">
+			<Option target="StackApp02"/>
+		</Unit>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/02StacksAndQueues/StackApp03.cpp">
+			<Option target="StackApp03"/>
+		</Unit>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/02StacksAndQueues/StackExercise01.cpp">
+			<Option target="StackExercise01"/>
+		</Unit>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/02StacksAndQueues/StackExercise02.cpp">
+			<Option target="StackExercise02"/>
+		</Unit>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/02StacksAndQueues/StackExercise03.cpp">
+			<Option target="StackExercise03"/>
+		</Unit>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/02StacksAndQueues/StackExercise04.cpp">
+			<Option target="StackExercise04"/>
+		</Unit>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/02StacksAndQueues/StackExercise05.cpp">
+			<Option target="StackExercise05"/>
+		</Unit>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/02StacksAndQueues/stack01.cpp">
+			<Option target="stack01"/>
+		</Unit>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/02StacksAndQueues/stack02.cpp">
+			<Option target="stack02"/>
+		</Unit>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/04ArraysAndSpecialMatrices/specialMatrices01.cpp">
+			<Option target="specialMatrices01"/>
+		</Unit>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/04ArraysAndSpecialMatrices/specialMatrices02.cpp">
+			<Option target="specialMatrices02"/>
+		</Unit>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/04ArraysAndSpecialMatrices/specialMatrices03.cpp">
+			<Option target="specialMatrices03"/>
+		</Unit>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/04ArraysAndSpecialMatrices/specialMatrices04.cpp">
+			<Option target="specialMatrices04"/>
+		</Unit>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/05GeneralizedTable/Head/GList.h">
+			<Option target="list01"/>
+		</Unit>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/05GeneralizedTable/list01.cpp">
+			<Option target="list01"/>
+		</Unit>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/06TreeAndBiTree/BiTree01.cpp">
+			<Option target="BiTree01"/>
+		</Unit>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/06TreeAndBiTree/BiTree02.cpp">
+			<Option target="BiTree02"/>
+		</Unit>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/06TreeAndBiTree/ChildBrotherTree01.cpp">
+			<Option target="ChildBrotherTree01"/>
+		</Unit>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/06TreeAndBiTree/Head/ChildBrotherTree.h">
+			<Option target="ChildBrotherTree01"/>
+		</Unit>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/06TreeAndBiTree/Head/HuffmanTree.h">
+			<Option target="HuffmanTree01"/>
+		</Unit>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/06TreeAndBiTree/Head/InBiThrTree.h">
+			<Option target="BiTree02"/>
+		</Unit>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/06TreeAndBiTree/Head/LinkBiTree.h">
+			<Option target="BiTree01"/>
+		</Unit>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/06TreeAndBiTree/Head/SeqBiTree.h">
+			<Option target="BiTree01"/>
+		</Unit>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/06TreeAndBiTree/HuffmanTree01.cpp">
+			<Option target="HuffmanTree01"/>
+		</Unit>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/THU_DS/BibaryTree/BiTree01.cpp">
+			<Option target="ThuBiTree01"/>
+		</Unit>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/THU_DS/BibaryTree/include/BinNode.h">
+			<Option target="ThuBiTree01"/>
+		</Unit>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/THU_DS/BibaryTree/include/BinTree.h">
+			<Option target="ThuBiTree01"/>
+		</Unit>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/main.cpp">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/main2.cpp">
+			<Option target="main2"/>
+		</Unit>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/main3.cpp">
+			<Option target="main3"/>
+		</Unit>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/main4.cpp">
+			<Option target="main4"/>
+		</Unit>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/01LineTable/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\01LineTable\"/>
+		</Unit>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/02StacksAndQueues/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\02StacksAndQueues\"/>
+		</Unit>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/03String/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\03String\"/>
+		</Unit>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/04ArraysAndSpecialMatrices/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\04ArraysAndSpecialMatrices\"/>
+		</Unit>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/05GeneralizedTable/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\05GeneralizedTable\"/>
+		</Unit>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/06TreeAndBiTree/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\06TreeAndBiTree\"/>
+		</Unit>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/THU_DS/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\THU_DS\"/>
+		</Unit>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/THU_DS/BibaryTree/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\THU_DS\BibaryTree\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

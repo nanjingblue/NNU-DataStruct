@@ -49,13 +49,14 @@ void newCallNext(char* p, int next[]) {
     next[0] = -1;
     int k = -1;
     int j = 0;
-    while (j < m) {
+    while (j < m - 1) {
         if (k == -1 || p[j] == p[k]) {
-            if (p[j] == p[k])
-                next[j + 1] = next[k];
-            else
-                next[j + 1] = next[j]+1;
             ++j; ++k;
+            if (p[j] == p[k]) {
+                next[j] = next[k];
+            } else {
+                next[j] = k;
+            }
         } else
             k = next[k];
     }
@@ -68,12 +69,15 @@ int KMP(char* s, char* p) {
     int n = strlen(s);
     int m = strlen(p);
     int next[m];
-    newCallNext(p, next); //³õÊ¼»¯nextÊý×é
+    newCallNext(p, next); //ï¿½ï¿½Ê¼ï¿½ï¿½nextï¿½ï¿½ï¿½ï¿½
+    for (int i =0; i < m; ++i) {
+        cout << next[i] << " ";
+    }
+    cout << endl;
     while (i < n) {
         if (j == -1 || s[i] == p[j]) {
             ++i;	++j;
-        }
-        else
+        } else
             j = next[j];
         if (j == m) {
             ans = i - m;
@@ -86,13 +90,14 @@ int KMP(char* s, char* p) {
 void question1() {
     char s[] = "232ab32r";
     char t[] = "ab";
-    cout << "±©Á¦£º" << BForcePatternMatch(s, t) << endl;
+    cout << "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" << BForcePatternMatch(s, t) << endl;
 }
 
 void question2() {
     char s[] = "232ab32r";
-    char t[] = "ab";
-    cout << "KMP£º" << KMP(s, t) << endl;
+//    char t[] = "ab";
+    char t[] = "AAAAB";
+    cout << "KMPï¿½ï¿½" << KMP(s, t) << endl;
 }
 
 #endif //LAB3_1_PATTERN_MATCHING_H

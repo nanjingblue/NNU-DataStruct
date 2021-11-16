@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/cherry/Documents/workspace/C++/DataStructures/base/04ArraysAndSpecialMatrices/specialMatrices01.cpp
+iostream
+-
+

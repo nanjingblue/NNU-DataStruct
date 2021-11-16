@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../05GeneralizedTable/Head/GList.h
+iostream
+-
+string
+-
+
+C:/Users/cherry/Documents/workspace/C++/DataStructures/base/05GeneralizedTable/list01.cpp
+iostream
+-
+GList.h
+C:/Users/cherry/Documents/workspace/C++/DataStructures/base/05GeneralizedTable/GList.h
+

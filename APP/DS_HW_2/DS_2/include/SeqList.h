@@ -214,10 +214,11 @@ void SeqList<T, MaxSize>::insertOrder(const T& e) {
             break;
         }
     }
-    for (int i = length; i > mid; --i) {
+    std::cout << mid << std::endl;
+    for (int i = length; i >= mid; --i) {
         data[i + 1] = data[i];
     }
-    data[mid + 1] = e;
+    data[mid] = e;
     length++;
 }
 

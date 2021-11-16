@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../02StacksAndQueues/Head/SeqStack.h
+iostream
+-
+
+C:/Users/cherry/Desktop/workspace/C++/DataStructures/02StacksAndQueues/stack01.cpp
+iostream
+-
+SeqStack.h
+C:/Users/cherry/Desktop/workspace/C++/DataStructures/02StacksAndQueues/SeqStack.h
+
