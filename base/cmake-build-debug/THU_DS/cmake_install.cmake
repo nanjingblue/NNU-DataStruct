@@ -42,3 +42,8 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/THU_DS/BibaryTree/cmake_install.cmake")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/THU_DS/Graph/cmake_install.cmake")
+endif()
+

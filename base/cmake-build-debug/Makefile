@@ -492,6 +492,19 @@ ThuBiTree01/fast:
 	$(MAKE) $(MAKESILENT) -f THU_DS\BibaryTree\CMakeFiles\ThuBiTree01.dir\build.make THU_DS/BibaryTree/CMakeFiles/ThuBiTree01.dir/build
 .PHONY : ThuBiTree01/fast
 
+#=============================================================================
+# Target rules for targets named ThuGraph01
+
+# Build rule for target.
+ThuGraph01: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ThuGraph01
+.PHONY : ThuGraph01
+
+# fast build rule for target.
+ThuGraph01/fast:
+	$(MAKE) $(MAKESILENT) -f THU_DS\Graph\CMakeFiles\ThuGraph01.dir\build.make THU_DS/Graph/CMakeFiles/ThuGraph01.dir/build
+.PHONY : ThuGraph01/fast
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -613,6 +626,7 @@ help:
 	@echo ... StackExercise04
 	@echo ... StackExercise05
 	@echo ... ThuBiTree01
+	@echo ... ThuGraph01
 	@echo ... demo01
 	@echo ... demo02
 	@echo ... list01

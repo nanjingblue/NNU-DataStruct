@@ -5,7 +5,7 @@
 		<Option title="DatasStructures/THU_DS/BinaryTree"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\01LineTable\;CMake Files\02StacksAndQueues\;CMake Files\03String\;CMake Files\04ArraysAndSpecialMatrices\;CMake Files\05GeneralizedTable\;CMake Files\06TreeAndBiTree\;CMake Files\THU_DS\;CMake Files\THU_DS\BibaryTree\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\01LineTable\;CMake Files\02StacksAndQueues\;CMake Files\03String\;CMake Files\04ArraysAndSpecialMatrices\;CMake Files\05GeneralizedTable\;CMake Files\06TreeAndBiTree\;CMake Files\THU_DS\;CMake Files\THU_DS\BibaryTree\;CMake Files\THU_DS\Graph\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/THU_DS/BibaryTree"/>
@@ -97,6 +97,9 @@
 		</Unit>
 		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/THU_DS/BibaryTree/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\THU_DS\BibaryTree\"/>
+		</Unit>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/THU_DS/Graph/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\THU_DS\Graph\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

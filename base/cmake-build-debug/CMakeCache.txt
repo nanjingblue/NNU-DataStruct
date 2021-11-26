@@ -265,6 +265,12 @@ DatasStructures/THU_DS/BinaryTree_BINARY_DIR:STATIC=C:/Users/cherry/Documents/wo
 //Value Computed by CMake
 DatasStructures/THU_DS/BinaryTree_SOURCE_DIR:STATIC=C:/Users/cherry/Documents/workspace/C++/DataStructures/base/THU_DS/BibaryTree
 
+//Value Computed by CMake
+DatasStructures/THU_DS/Graph_BINARY_DIR:STATIC=C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/THU_DS/Graph
+
+//Value Computed by CMake
+DatasStructures/THU_DS/Graph_SOURCE_DIR:STATIC=C:/Users/cherry/Documents/workspace/C++/DataStructures/base/THU_DS/Graph
+
 
 ########################
 # INTERNAL cache entries
@@ -378,7 +384,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=9
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=10
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

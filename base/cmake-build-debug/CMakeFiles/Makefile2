@@ -232,14 +232,17 @@ clean: THU_DS/clean
 
 # Recursive "all" directory target.
 THU_DS/all: THU_DS/BibaryTree/all
+THU_DS/all: THU_DS/Graph/all
 .PHONY : THU_DS/all
 
 # Recursive "preinstall" directory target.
 THU_DS/preinstall: THU_DS/BibaryTree/preinstall
+THU_DS/preinstall: THU_DS/Graph/preinstall
 .PHONY : THU_DS/preinstall
 
 # Recursive "clean" directory target.
 THU_DS/clean: THU_DS/BibaryTree/clean
+THU_DS/clean: THU_DS/Graph/clean
 .PHONY : THU_DS/clean
 
 #=============================================================================
@@ -256,6 +259,21 @@ THU_DS/BibaryTree/preinstall:
 # Recursive "clean" directory target.
 THU_DS/BibaryTree/clean: THU_DS/BibaryTree/CMakeFiles/ThuBiTree01.dir/clean
 .PHONY : THU_DS/BibaryTree/clean
+
+#=============================================================================
+# Directory level rules for directory THU_DS/Graph
+
+# Recursive "all" directory target.
+THU_DS/Graph/all: THU_DS/Graph/CMakeFiles/ThuGraph01.dir/all
+.PHONY : THU_DS/Graph/all
+
+# Recursive "preinstall" directory target.
+THU_DS/Graph/preinstall:
+.PHONY : THU_DS/Graph/preinstall
+
+# Recursive "clean" directory target.
+THU_DS/Graph/clean: THU_DS/Graph/CMakeFiles/ThuGraph01.dir/clean
+.PHONY : THU_DS/Graph/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/DataStructures.dir
@@ -290,7 +308,7 @@ CMakeFiles/DataStructures.dir/clean:
 CMakeFiles/main2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main2.dir\build.make CMakeFiles/main2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main2.dir\build.make CMakeFiles/main2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug\CMakeFiles --progress-num=43,44 "Built target main2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug\CMakeFiles --progress-num=45,46 "Built target main2"
 .PHONY : CMakeFiles/main2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -316,7 +334,7 @@ CMakeFiles/main2.dir/clean:
 CMakeFiles/main3.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main3.dir\build.make CMakeFiles/main3.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main3.dir\build.make CMakeFiles/main3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug\CMakeFiles --progress-num=45,46 "Built target main3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug\CMakeFiles --progress-num=47,48 "Built target main3"
 .PHONY : CMakeFiles/main3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -342,7 +360,7 @@ CMakeFiles/main3.dir/clean:
 CMakeFiles/main4.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main4.dir\build.make CMakeFiles/main4.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main4.dir\build.make CMakeFiles/main4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug\CMakeFiles --progress-num=47,48 "Built target main4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug\CMakeFiles --progress-num=49,50 "Built target main4"
 .PHONY : CMakeFiles/main4.dir/all
 
 # Build rule for subdir invocation for target.
@@ -368,7 +386,7 @@ CMakeFiles/main4.dir/clean:
 01LineTable/CMakeFiles/demo01.dir/all:
 	$(MAKE) $(MAKESILENT) -f 01LineTable\CMakeFiles\demo01.dir\build.make 01LineTable/CMakeFiles/demo01.dir/depend
 	$(MAKE) $(MAKESILENT) -f 01LineTable\CMakeFiles\demo01.dir\build.make 01LineTable/CMakeFiles/demo01.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug\CMakeFiles --progress-num=35,36,37,38 "Built target demo01"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug\CMakeFiles --progress-num=37,38,39,40 "Built target demo01"
 .PHONY : 01LineTable/CMakeFiles/demo01.dir/all
 
 # Build rule for subdir invocation for target.
@@ -394,7 +412,7 @@ demo01: 01LineTable/CMakeFiles/demo01.dir/rule
 01LineTable/CMakeFiles/demo02.dir/all:
 	$(MAKE) $(MAKESILENT) -f 01LineTable\CMakeFiles\demo02.dir\build.make 01LineTable/CMakeFiles/demo02.dir/depend
 	$(MAKE) $(MAKESILENT) -f 01LineTable\CMakeFiles\demo02.dir\build.make 01LineTable/CMakeFiles/demo02.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug\CMakeFiles --progress-num=39,40 "Built target demo02"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug\CMakeFiles --progress-num=41,42 "Built target demo02"
 .PHONY : 01LineTable/CMakeFiles/demo02.dir/all
 
 # Build rule for subdir invocation for target.
@@ -446,7 +464,7 @@ StackApp02: 02StacksAndQueues/CMakeFiles/StackApp02.dir/rule
 02StacksAndQueues/CMakeFiles/stack01.dir/all:
 	$(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\stack01.dir\build.make 02StacksAndQueues/CMakeFiles/stack01.dir/depend
 	$(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\stack01.dir\build.make 02StacksAndQueues/CMakeFiles/stack01.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug\CMakeFiles --progress-num=57,58,59 "Built target stack01"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug\CMakeFiles --progress-num=59,60,61 "Built target stack01"
 .PHONY : 02StacksAndQueues/CMakeFiles/stack01.dir/all
 
 # Build rule for subdir invocation for target.
@@ -524,7 +542,7 @@ StackApp01: 02StacksAndQueues/CMakeFiles/StackApp01.dir/rule
 02StacksAndQueues/CMakeFiles/stack02.dir/all:
 	$(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\stack02.dir\build.make 02StacksAndQueues/CMakeFiles/stack02.dir/depend
 	$(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\stack02.dir\build.make 02StacksAndQueues/CMakeFiles/stack02.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug\CMakeFiles --progress-num=60,61 "Built target stack02"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug\CMakeFiles --progress-num=62,63 "Built target stack02"
 .PHONY : 02StacksAndQueues/CMakeFiles/stack02.dir/all
 
 # Build rule for subdir invocation for target.
@@ -758,7 +776,7 @@ QueueApp01: 02StacksAndQueues/CMakeFiles/QueueApp01.dir/rule
 04ArraysAndSpecialMatrices/CMakeFiles/specialMatrices01.dir/all:
 	$(MAKE) $(MAKESILENT) -f 04ArraysAndSpecialMatrices\CMakeFiles\specialMatrices01.dir\build.make 04ArraysAndSpecialMatrices/CMakeFiles/specialMatrices01.dir/depend
 	$(MAKE) $(MAKESILENT) -f 04ArraysAndSpecialMatrices\CMakeFiles\specialMatrices01.dir\build.make 04ArraysAndSpecialMatrices/CMakeFiles/specialMatrices01.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug\CMakeFiles --progress-num=49,50 "Built target specialMatrices01"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug\CMakeFiles --progress-num=51,52 "Built target specialMatrices01"
 .PHONY : 04ArraysAndSpecialMatrices/CMakeFiles/specialMatrices01.dir/all
 
 # Build rule for subdir invocation for target.
@@ -784,7 +802,7 @@ specialMatrices01: 04ArraysAndSpecialMatrices/CMakeFiles/specialMatrices01.dir/r
 04ArraysAndSpecialMatrices/CMakeFiles/specialMatrices02.dir/all:
 	$(MAKE) $(MAKESILENT) -f 04ArraysAndSpecialMatrices\CMakeFiles\specialMatrices02.dir\build.make 04ArraysAndSpecialMatrices/CMakeFiles/specialMatrices02.dir/depend
 	$(MAKE) $(MAKESILENT) -f 04ArraysAndSpecialMatrices\CMakeFiles\specialMatrices02.dir\build.make 04ArraysAndSpecialMatrices/CMakeFiles/specialMatrices02.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug\CMakeFiles --progress-num=51,52 "Built target specialMatrices02"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug\CMakeFiles --progress-num=53,54 "Built target specialMatrices02"
 .PHONY : 04ArraysAndSpecialMatrices/CMakeFiles/specialMatrices02.dir/all
 
 # Build rule for subdir invocation for target.
@@ -810,7 +828,7 @@ specialMatrices02: 04ArraysAndSpecialMatrices/CMakeFiles/specialMatrices02.dir/r
 04ArraysAndSpecialMatrices/CMakeFiles/specialMatrices03.dir/all:
 	$(MAKE) $(MAKESILENT) -f 04ArraysAndSpecialMatrices\CMakeFiles\specialMatrices03.dir\build.make 04ArraysAndSpecialMatrices/CMakeFiles/specialMatrices03.dir/depend
 	$(MAKE) $(MAKESILENT) -f 04ArraysAndSpecialMatrices\CMakeFiles\specialMatrices03.dir\build.make 04ArraysAndSpecialMatrices/CMakeFiles/specialMatrices03.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug\CMakeFiles --progress-num=53,54 "Built target specialMatrices03"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug\CMakeFiles --progress-num=55,56 "Built target specialMatrices03"
 .PHONY : 04ArraysAndSpecialMatrices/CMakeFiles/specialMatrices03.dir/all
 
 # Build rule for subdir invocation for target.
@@ -836,7 +854,7 @@ specialMatrices03: 04ArraysAndSpecialMatrices/CMakeFiles/specialMatrices03.dir/r
 04ArraysAndSpecialMatrices/CMakeFiles/specialMatrices04.dir/all:
 	$(MAKE) $(MAKESILENT) -f 04ArraysAndSpecialMatrices\CMakeFiles\specialMatrices04.dir\build.make 04ArraysAndSpecialMatrices/CMakeFiles/specialMatrices04.dir/depend
 	$(MAKE) $(MAKESILENT) -f 04ArraysAndSpecialMatrices\CMakeFiles\specialMatrices04.dir\build.make 04ArraysAndSpecialMatrices/CMakeFiles/specialMatrices04.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug\CMakeFiles --progress-num=55,56 "Built target specialMatrices04"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug\CMakeFiles --progress-num=57,58 "Built target specialMatrices04"
 .PHONY : 04ArraysAndSpecialMatrices/CMakeFiles/specialMatrices04.dir/all
 
 # Build rule for subdir invocation for target.
@@ -862,7 +880,7 @@ specialMatrices04: 04ArraysAndSpecialMatrices/CMakeFiles/specialMatrices04.dir/r
 05GeneralizedTable/CMakeFiles/list01.dir/all:
 	$(MAKE) $(MAKESILENT) -f 05GeneralizedTable\CMakeFiles\list01.dir\build.make 05GeneralizedTable/CMakeFiles/list01.dir/depend
 	$(MAKE) $(MAKESILENT) -f 05GeneralizedTable\CMakeFiles\list01.dir\build.make 05GeneralizedTable/CMakeFiles/list01.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug\CMakeFiles --progress-num=41,42 "Built target list01"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug\CMakeFiles --progress-num=43,44 "Built target list01"
 .PHONY : 05GeneralizedTable/CMakeFiles/list01.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1010,6 +1028,32 @@ ThuBiTree01: THU_DS/BibaryTree/CMakeFiles/ThuBiTree01.dir/rule
 THU_DS/BibaryTree/CMakeFiles/ThuBiTree01.dir/clean:
 	$(MAKE) $(MAKESILENT) -f THU_DS\BibaryTree\CMakeFiles\ThuBiTree01.dir\build.make THU_DS/BibaryTree/CMakeFiles/ThuBiTree01.dir/clean
 .PHONY : THU_DS/BibaryTree/CMakeFiles/ThuBiTree01.dir/clean
+
+#=============================================================================
+# Target rules for target THU_DS/Graph/CMakeFiles/ThuGraph01.dir
+
+# All Build rule for target.
+THU_DS/Graph/CMakeFiles/ThuGraph01.dir/all:
+	$(MAKE) $(MAKESILENT) -f THU_DS\Graph\CMakeFiles\ThuGraph01.dir\build.make THU_DS/Graph/CMakeFiles/ThuGraph01.dir/depend
+	$(MAKE) $(MAKESILENT) -f THU_DS\Graph\CMakeFiles\ThuGraph01.dir\build.make THU_DS/Graph/CMakeFiles/ThuGraph01.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug\CMakeFiles --progress-num=35,36 "Built target ThuGraph01"
+.PHONY : THU_DS/Graph/CMakeFiles/ThuGraph01.dir/all
+
+# Build rule for subdir invocation for target.
+THU_DS/Graph/CMakeFiles/ThuGraph01.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 THU_DS/Graph/CMakeFiles/ThuGraph01.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug\CMakeFiles 0
+.PHONY : THU_DS/Graph/CMakeFiles/ThuGraph01.dir/rule
+
+# Convenience name for target.
+ThuGraph01: THU_DS/Graph/CMakeFiles/ThuGraph01.dir/rule
+.PHONY : ThuGraph01
+
+# clean rule for target.
+THU_DS/Graph/CMakeFiles/ThuGraph01.dir/clean:
+	$(MAKE) $(MAKESILENT) -f THU_DS\Graph\CMakeFiles\ThuGraph01.dir\build.make THU_DS/Graph/CMakeFiles/ThuGraph01.dir/clean
+.PHONY : THU_DS/Graph/CMakeFiles/ThuGraph01.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

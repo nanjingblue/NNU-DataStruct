@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="DatasStructures/THU_DS/Graph"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\01LineTable\;CMake Files\02StacksAndQueues\;CMake Files\03String\;CMake Files\04ArraysAndSpecialMatrices\;CMake Files\05GeneralizedTable\;CMake Files\06TreeAndBiTree\;CMake Files\THU_DS\;CMake Files\THU_DS\BibaryTree\;CMake Files\THU_DS\Graph\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/THU_DS/Graph"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/THU_DS/Graph/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/THU_DS/Graph/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/THU_DS/Graph/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/THU_DS/Graph/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ThuGraph01">
+				<Option output="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/THU_DS/Graph/ThuGraph01.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/THU_DS/Graph"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/THU_DS/include"/>
+					<Add directory="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/THU_DS/Graph/include"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/THU_DS/Graph/Makefile&quot;  VERBOSE=1 ThuGraph01"/>
+					<CompileFile command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/THU_DS/Graph/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/THU_DS/Graph/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/THU_DS/Graph/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ThuGraph01/fast">
+				<Option output="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/THU_DS/Graph/ThuGraph01.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/THU_DS/Graph"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/THU_DS/include"/>
+					<Add directory="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/THU_DS/Graph/include"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/env/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/THU_DS/Graph/Makefile&quot;  VERBOSE=1 ThuGraph01/fast"/>
+					<CompileFile command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/THU_DS/Graph/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/THU_DS/Graph/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/env/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/THU_DS/Graph/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/THU_DS/Graph/graph01.cpp">
+			<Option target="ThuGraph01"/>
+		</Unit>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/THU_DS/Graph/include/Graph.h">
+			<Option target="ThuGraph01"/>
+		</Unit>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/THU_DS/Graph/include/GraphMatrix.h">
+			<Option target="ThuGraph01"/>
+		</Unit>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/01LineTable/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\01LineTable\"/>
+		</Unit>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/02StacksAndQueues/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\02StacksAndQueues\"/>
+		</Unit>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/03String/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\03String\"/>
+		</Unit>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/04ArraysAndSpecialMatrices/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\04ArraysAndSpecialMatrices\"/>
+		</Unit>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/05GeneralizedTable/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\05GeneralizedTable\"/>
+		</Unit>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/06TreeAndBiTree/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\06TreeAndBiTree\"/>
+		</Unit>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/THU_DS/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\THU_DS\"/>
+		</Unit>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/THU_DS/BibaryTree/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\THU_DS\BibaryTree\"/>
+		</Unit>
+		<Unit filename="C:/Users/cherry/Documents/workspace/C++/DataStructures/base/THU_DS/Graph/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\THU_DS\Graph\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
