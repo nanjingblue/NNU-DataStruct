@@ -9,7 +9,8 @@ using namespace std;
 
 int main() {
 //    char arrPre[] = "ABDECF";
-    char arrPre[] = "ab**cdef**g***hi**j**";
+//    char arrPre[] = "ab**cdef**g***hi**j**";
+    char arrPre[] = "abd**e**cf**hi**n**";
     char arrMid[] = "DBEAFC";
     char arrPost[] = "DEBFCA";
 //    char arrPost[] = "**D**EB**F*CA";
@@ -58,11 +59,11 @@ int main() {
     cout << "节点 f 的所有祖先：" << bit.allAncestorOfX('f') << endl;
     cout << "是否为完全二叉树：" << bit.isCompleteBiTree() << endl;
     cout << "是否为完全二叉树：" << bit.isCompleteBiTree_2() << endl;
-    cout << "由叶节点组成的单链表，从左到右：";
-    auto head = bit.getLeafTable();
-    while (head) {
-        cout << head->data << " ";
-        head = head->rightChild;
-    }
+//    cout << "由叶节点组成的单链表，从左到右：";
+//    auto head = bit.getLeafTable();
+//    while (head) {
+//        cout << head->data << " ";
+//        head = head->rightChild;
+//    }
     return 0;
 }

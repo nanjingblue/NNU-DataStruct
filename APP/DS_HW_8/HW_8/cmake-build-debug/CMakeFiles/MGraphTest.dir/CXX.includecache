@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/MGraph.h
+iostream
+-
+vector
+-
+queue
+-
+algorithm
+-
+
+C:/workspace/C++/DataStructures/APP/DS_HW_8/HW_8/MGraphTest.cpp
+iostream
+-
+MGraph.h
+C:/workspace/C++/DataStructures/APP/DS_HW_8/HW_8/MGraph.h
+

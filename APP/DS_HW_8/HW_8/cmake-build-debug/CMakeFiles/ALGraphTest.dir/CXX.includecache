@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/ALGraph.h
+iostream
+-
+vector
+-
+queue
+-
+CSTree.h
+../include/CSTree.h
+
+../include/CSTree.h
+vector
+-
+iostream
+-
+stack
+-
+
+C:/workspace/C++/DataStructures/APP/DS_HW_8/HW_8/ALGraphTest.cpp
+iostream
+-
+ALGraph.h
+C:/workspace/C++/DataStructures/APP/DS_HW_8/HW_8/ALGraph.h
+

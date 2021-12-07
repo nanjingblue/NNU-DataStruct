@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\cherry\Documents\workspace\C++\DataStructures\base
+CMAKE_SOURCE_DIR = C:\workspace\C++\DataStructures\base
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug
+CMAKE_BINARY_DIR = C:\workspace\C++\DataStructures\base\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include 02StacksAndQueues/CMakeFiles/StackExercise02.dir/depend.make
@@ -68,16 +68,16 @@ include 02StacksAndQueues/CMakeFiles/StackExercise02.dir/flags.make
 02StacksAndQueues/CMakeFiles/StackExercise02.dir/StackExercise02.cpp.obj: 02StacksAndQueues/CMakeFiles/StackExercise02.dir/flags.make
 02StacksAndQueues/CMakeFiles/StackExercise02.dir/StackExercise02.cpp.obj: 02StacksAndQueues/CMakeFiles/StackExercise02.dir/includes_CXX.rsp
 02StacksAndQueues/CMakeFiles/StackExercise02.dir/StackExercise02.cpp.obj: ../02StacksAndQueues/StackExercise02.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object 02StacksAndQueues/CMakeFiles/StackExercise02.dir/StackExercise02.cpp.obj"
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug\02StacksAndQueues && C:\env\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\StackExercise02.dir\StackExercise02.cpp.obj -c C:\Users\cherry\Documents\workspace\C++\DataStructures\base\02StacksAndQueues\StackExercise02.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\workspace\C++\DataStructures\base\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object 02StacksAndQueues/CMakeFiles/StackExercise02.dir/StackExercise02.cpp.obj"
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug\02StacksAndQueues && C:\env\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\StackExercise02.dir\StackExercise02.cpp.obj -c C:\workspace\C++\DataStructures\base\02StacksAndQueues\StackExercise02.cpp
 
 02StacksAndQueues/CMakeFiles/StackExercise02.dir/StackExercise02.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/StackExercise02.dir/StackExercise02.cpp.i"
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug\02StacksAndQueues && C:\env\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\cherry\Documents\workspace\C++\DataStructures\base\02StacksAndQueues\StackExercise02.cpp > CMakeFiles\StackExercise02.dir\StackExercise02.cpp.i
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug\02StacksAndQueues && C:\env\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\workspace\C++\DataStructures\base\02StacksAndQueues\StackExercise02.cpp > CMakeFiles\StackExercise02.dir\StackExercise02.cpp.i
 
 02StacksAndQueues/CMakeFiles/StackExercise02.dir/StackExercise02.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/StackExercise02.dir/StackExercise02.cpp.s"
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug\02StacksAndQueues && C:\env\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\cherry\Documents\workspace\C++\DataStructures\base\02StacksAndQueues\StackExercise02.cpp -o CMakeFiles\StackExercise02.dir\StackExercise02.cpp.s
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug\02StacksAndQueues && C:\env\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\workspace\C++\DataStructures\base\02StacksAndQueues\StackExercise02.cpp -o CMakeFiles\StackExercise02.dir\StackExercise02.cpp.s
 
 # Object files for target StackExercise02
 StackExercise02_OBJECTS = \
@@ -91,18 +91,18 @@ StackExercise02_EXTERNAL_OBJECTS =
 02StacksAndQueues/StackExercise02.exe: 02StacksAndQueues/CMakeFiles/StackExercise02.dir/linklibs.rsp
 02StacksAndQueues/StackExercise02.exe: 02StacksAndQueues/CMakeFiles/StackExercise02.dir/objects1.rsp
 02StacksAndQueues/StackExercise02.exe: 02StacksAndQueues/CMakeFiles/StackExercise02.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable StackExercise02.exe"
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug\02StacksAndQueues && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\StackExercise02.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\workspace\C++\DataStructures\base\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable StackExercise02.exe"
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug\02StacksAndQueues && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\StackExercise02.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 02StacksAndQueues/CMakeFiles/StackExercise02.dir/build: 02StacksAndQueues/StackExercise02.exe
 .PHONY : 02StacksAndQueues/CMakeFiles/StackExercise02.dir/build
 
 02StacksAndQueues/CMakeFiles/StackExercise02.dir/clean:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug\02StacksAndQueues && $(CMAKE_COMMAND) -P CMakeFiles\StackExercise02.dir\cmake_clean.cmake
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug\02StacksAndQueues && $(CMAKE_COMMAND) -P CMakeFiles\StackExercise02.dir\cmake_clean.cmake
 .PHONY : 02StacksAndQueues/CMakeFiles/StackExercise02.dir/clean
 
 02StacksAndQueues/CMakeFiles/StackExercise02.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\cherry\Documents\workspace\C++\DataStructures\base C:\Users\cherry\Documents\workspace\C++\DataStructures\base\02StacksAndQueues C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug\02StacksAndQueues C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug\02StacksAndQueues\CMakeFiles\StackExercise02.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\workspace\C++\DataStructures\base C:\workspace\C++\DataStructures\base\02StacksAndQueues C:\workspace\C++\DataStructures\base\cmake-build-debug C:\workspace\C++\DataStructures\base\cmake-build-debug\02StacksAndQueues C:\workspace\C++\DataStructures\base\cmake-build-debug\02StacksAndQueues\CMakeFiles\StackExercise02.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : 02StacksAndQueues/CMakeFiles/StackExercise02.dir/depend
 

@@ -8,12 +8,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/cherry/Documents/workspace/C++/DataStructures/APP/LAB/lab5-2/main.cpp" "C:/Users/cherry/Documents/workspace/C++/DataStructures/APP/LAB/lab5-2/cmake-build-debug/CMakeFiles/lab5_2.dir/main.cpp.obj"
+  "C:/workspace/C++/DataStructures/APP/LAB/lab5-2/main.cpp" "C:/workspace/C++/DataStructures/APP/LAB/lab5-2/cmake-build-debug/CMakeFiles/lab5_2.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../include"
   )
 
 # The set of dependency files which are needed:

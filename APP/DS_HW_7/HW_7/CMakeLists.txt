@@ -6,3 +6,4 @@ set(CMAKE_CXX_STANDARD 14)
 include_directories(include)
 
 add_executable(HW_7 main.cpp include/link_bi_tree.h)
+add_executable(ylx ylx.cpp)

@@ -1,0 +1,4 @@
+C:/workspace/C++/DataStructures/APP/DS_HW_8/HW_8/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/workspace/C++/DataStructures/APP/DS_HW_8/HW_8/cmake-build-debug/CMakeFiles/MGraphTest.dir
+C:/workspace/C++/DataStructures/APP/DS_HW_8/HW_8/cmake-build-debug/CMakeFiles/ALGraphTest.dir
+C:/workspace/C++/DataStructures/APP/DS_HW_8/HW_8/cmake-build-debug/CMakeFiles/rebuild_cache.dir

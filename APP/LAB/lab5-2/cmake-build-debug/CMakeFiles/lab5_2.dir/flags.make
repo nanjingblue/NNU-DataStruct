@@ -4,7 +4,7 @@
 # compile CXX with C:/env/mingw64/bin/g++.exe
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = @CMakeFiles/lab5_2.dir/includes_CXX.rsp
 
 CXX_FLAGS = -g -std=gnu++14
 

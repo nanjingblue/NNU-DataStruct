@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/cherry/Documents/workspace/C++/DataStructures/base/04ArraysAndSpecialMatrices
+# Install script for directory: C:/workspace/C++/DataStructures/base/04ArraysAndSpecialMatrices
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\MGraphTest.dir/objects.a
+C:\env\mingw64\bin\ar.exe cr CMakeFiles\MGraphTest.dir/objects.a @CMakeFiles\MGraphTest.dir\objects1.rsp
+C:\env\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\MGraphTest.dir/objects.a -Wl,--no-whole-archive -o MGraphTest.exe -Wl,--out-implib,libMGraphTest.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\MGraphTest.dir\linklibs.rsp

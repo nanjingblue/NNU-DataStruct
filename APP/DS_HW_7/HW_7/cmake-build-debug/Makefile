@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\cherry\Documents\workspace\C++\DataStructures\APP\DS_HW_7\HW_7
+CMAKE_SOURCE_DIR = C:\workspace\C++\DataStructures\APP\DS_HW_7\HW_7
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\cherry\Documents\workspace\C++\DataStructures\APP\DS_HW_7\HW_7\cmake-build-debug
+CMAKE_BINARY_DIR = C:\workspace\C++\DataStructures\APP\DS_HW_7\HW_7\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\cherry\Documents\workspace\C++\DataStructures\APP\DS_HW_7\HW_7\cmake-build-debug\CMakeFiles C:\Users\cherry\Documents\workspace\C++\DataStructures\APP\DS_HW_7\HW_7\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\workspace\C++\DataStructures\APP\DS_HW_7\HW_7\cmake-build-debug\CMakeFiles C:\workspace\C++\DataStructures\APP\DS_HW_7\HW_7\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\cherry\Documents\workspace\C++\DataStructures\APP\DS_HW_7\HW_7\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\workspace\C++\DataStructures\APP\DS_HW_7\HW_7\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -128,6 +128,19 @@ HW_7/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HW_7.dir\build.make CMakeFiles/HW_7.dir/build
 .PHONY : HW_7/fast
 
+#=============================================================================
+# Target rules for targets named ylx
+
+# Build rule for target.
+ylx: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ylx
+.PHONY : ylx
+
+# fast build rule for target.
+ylx/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ylx.dir\build.make CMakeFiles/ylx.dir/build
+.PHONY : ylx/fast
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -152,6 +165,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HW_7.dir\build.make CMakeFiles/HW_7.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+ylx.obj: ylx.cpp.obj
+.PHONY : ylx.obj
+
+# target to build an object file
+ylx.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ylx.dir\build.make CMakeFiles/ylx.dir/ylx.cpp.obj
+.PHONY : ylx.cpp.obj
+
+ylx.i: ylx.cpp.i
+.PHONY : ylx.i
+
+# target to preprocess a source file
+ylx.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ylx.dir\build.make CMakeFiles/ylx.dir/ylx.cpp.i
+.PHONY : ylx.cpp.i
+
+ylx.s: ylx.cpp.s
+.PHONY : ylx.s
+
+# target to generate assembly for a file
+ylx.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ylx.dir\build.make CMakeFiles/ylx.dir/ylx.cpp.s
+.PHONY : ylx.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -161,9 +198,13 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... HW_7
+	@echo ... ylx
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... ylx.obj
+	@echo ... ylx.i
+	@echo ... ylx.s
 .PHONY : help
 
 

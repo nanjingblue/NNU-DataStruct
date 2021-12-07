@@ -6,7 +6,19 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/cherry/Documents/workspace/C++/DataStructures/APP/LAB/lab5-2/main.cpp
+../include/cstree.h
+vector
+-
 iostream
 -
+stack
+-
+
+C:/workspace/C++/DataStructures/APP/LAB/lab5-2/main.cpp
+iostream
+-
+vector
+-
+cstree.h
+C:/workspace/C++/DataStructures/APP/LAB/lab5-2/cstree.h
 

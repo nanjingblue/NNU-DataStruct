@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\cherry\Documents\workspace\C++\DataStructures\base
+CMAKE_SOURCE_DIR = C:\workspace\C++\DataStructures\base
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug
+CMAKE_BINARY_DIR = C:\workspace\C++\DataStructures\base\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include THU_DS/BibaryTree/CMakeFiles/ThuBiTree01.dir/depend.make
@@ -68,16 +68,16 @@ include THU_DS/BibaryTree/CMakeFiles/ThuBiTree01.dir/flags.make
 THU_DS/BibaryTree/CMakeFiles/ThuBiTree01.dir/BiTree01.cpp.obj: THU_DS/BibaryTree/CMakeFiles/ThuBiTree01.dir/flags.make
 THU_DS/BibaryTree/CMakeFiles/ThuBiTree01.dir/BiTree01.cpp.obj: THU_DS/BibaryTree/CMakeFiles/ThuBiTree01.dir/includes_CXX.rsp
 THU_DS/BibaryTree/CMakeFiles/ThuBiTree01.dir/BiTree01.cpp.obj: ../THU_DS/BibaryTree/BiTree01.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object THU_DS/BibaryTree/CMakeFiles/ThuBiTree01.dir/BiTree01.cpp.obj"
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug\THU_DS\BibaryTree && C:\env\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ThuBiTree01.dir\BiTree01.cpp.obj -c C:\Users\cherry\Documents\workspace\C++\DataStructures\base\THU_DS\BibaryTree\BiTree01.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\workspace\C++\DataStructures\base\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object THU_DS/BibaryTree/CMakeFiles/ThuBiTree01.dir/BiTree01.cpp.obj"
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug\THU_DS\BibaryTree && C:\env\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ThuBiTree01.dir\BiTree01.cpp.obj -c C:\workspace\C++\DataStructures\base\THU_DS\BibaryTree\BiTree01.cpp
 
 THU_DS/BibaryTree/CMakeFiles/ThuBiTree01.dir/BiTree01.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ThuBiTree01.dir/BiTree01.cpp.i"
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug\THU_DS\BibaryTree && C:\env\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\cherry\Documents\workspace\C++\DataStructures\base\THU_DS\BibaryTree\BiTree01.cpp > CMakeFiles\ThuBiTree01.dir\BiTree01.cpp.i
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug\THU_DS\BibaryTree && C:\env\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\workspace\C++\DataStructures\base\THU_DS\BibaryTree\BiTree01.cpp > CMakeFiles\ThuBiTree01.dir\BiTree01.cpp.i
 
 THU_DS/BibaryTree/CMakeFiles/ThuBiTree01.dir/BiTree01.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ThuBiTree01.dir/BiTree01.cpp.s"
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug\THU_DS\BibaryTree && C:\env\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\cherry\Documents\workspace\C++\DataStructures\base\THU_DS\BibaryTree\BiTree01.cpp -o CMakeFiles\ThuBiTree01.dir\BiTree01.cpp.s
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug\THU_DS\BibaryTree && C:\env\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\workspace\C++\DataStructures\base\THU_DS\BibaryTree\BiTree01.cpp -o CMakeFiles\ThuBiTree01.dir\BiTree01.cpp.s
 
 # Object files for target ThuBiTree01
 ThuBiTree01_OBJECTS = \
@@ -91,18 +91,18 @@ THU_DS/BibaryTree/ThuBiTree01.exe: THU_DS/BibaryTree/CMakeFiles/ThuBiTree01.dir/
 THU_DS/BibaryTree/ThuBiTree01.exe: THU_DS/BibaryTree/CMakeFiles/ThuBiTree01.dir/linklibs.rsp
 THU_DS/BibaryTree/ThuBiTree01.exe: THU_DS/BibaryTree/CMakeFiles/ThuBiTree01.dir/objects1.rsp
 THU_DS/BibaryTree/ThuBiTree01.exe: THU_DS/BibaryTree/CMakeFiles/ThuBiTree01.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ThuBiTree01.exe"
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug\THU_DS\BibaryTree && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\ThuBiTree01.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\workspace\C++\DataStructures\base\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ThuBiTree01.exe"
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug\THU_DS\BibaryTree && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\ThuBiTree01.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 THU_DS/BibaryTree/CMakeFiles/ThuBiTree01.dir/build: THU_DS/BibaryTree/ThuBiTree01.exe
 .PHONY : THU_DS/BibaryTree/CMakeFiles/ThuBiTree01.dir/build
 
 THU_DS/BibaryTree/CMakeFiles/ThuBiTree01.dir/clean:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug\THU_DS\BibaryTree && $(CMAKE_COMMAND) -P CMakeFiles\ThuBiTree01.dir\cmake_clean.cmake
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug\THU_DS\BibaryTree && $(CMAKE_COMMAND) -P CMakeFiles\ThuBiTree01.dir\cmake_clean.cmake
 .PHONY : THU_DS/BibaryTree/CMakeFiles/ThuBiTree01.dir/clean
 
 THU_DS/BibaryTree/CMakeFiles/ThuBiTree01.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\cherry\Documents\workspace\C++\DataStructures\base C:\Users\cherry\Documents\workspace\C++\DataStructures\base\THU_DS\BibaryTree C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug\THU_DS\BibaryTree C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug\THU_DS\BibaryTree\CMakeFiles\ThuBiTree01.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\workspace\C++\DataStructures\base C:\workspace\C++\DataStructures\base\THU_DS\BibaryTree C:\workspace\C++\DataStructures\base\cmake-build-debug C:\workspace\C++\DataStructures\base\cmake-build-debug\THU_DS\BibaryTree C:\workspace\C++\DataStructures\base\cmake-build-debug\THU_DS\BibaryTree\CMakeFiles\ThuBiTree01.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : THU_DS/BibaryTree/CMakeFiles/ThuBiTree01.dir/depend
 

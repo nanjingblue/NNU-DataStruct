@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/cherry/Documents/workspace/C++/DataStructures/base/02StacksAndQueues
+# Install script for directory: C:/workspace/C++/DataStructures/base/02StacksAndQueues
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

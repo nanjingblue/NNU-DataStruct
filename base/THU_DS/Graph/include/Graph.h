@@ -128,5 +128,46 @@ void Graph<Tv, Te>::DFS(int v, int& clock) {     //assert: 0 <= v < n
     fTime(v) = ++clock; // 访问完毕
 }
 
+template<typename Tv, typename Te>
+std::stack<Tv> *Graph<Tv, Te>::tSort(int s) {
+    reset(); int clock = 0; int v = s;
+    auto * S = new std::stack<Tv>;    // 用栈记录排序顶点
+    do {
+        if (UNDISCOVERED == status(v)) {
+            if (!TSort(v, clock, s)) {  // clock 并不必需
+                while (!S->empty()) {   // 任一连通域（亦即整图）非DAG
+                    S->pop(); break;    // 则不必继续计算，直接返回
+                }
+            }
+        }
+    } while (s != (v = (++v % n)));
+    return S;   // 若输入为DAG，则 s 内各顶点自顶向底排序，否则（不存在拓扑排序）, S空
+}
+
+template<typename Tv, typename Te>
+bool Graph<Tv, Te>::TSort(int v, int & clock, std::stack <Tv> * S) {
+    dTime(v) = ++clock;
+    status(v) = DISCOVERED; // 发现顶点v
+    for (int u = firstNbr(v); -1 < u; u = nextNbr(v, u)) {  // 枚举v的所有邻居
+        switch (status(u)) {    // 并视u的状态分别处理
+            case UNDISCOVERED:
+                parent(u) = v;
+                type(v, u) = TREE;
+                if (!TSort(u, clock, S))    // 从顶点u处深入搜索
+                    return false;
+                break;
+            case DISCOVERED:
+                type(v, u) = BACKWARD;  // 一旦发现后向边（非DAG）
+                return false;   // 不必深入，故返回并报告
+            default:
+                type(v, u) = (dTime(v) < dTime(u)) ? FORWARD :CROSS;
+                break;
+        }
+    }
+    status(v) = VISITED;
+    S->push(vertex(v)); // 顶点被标记为 VISITED时候 随即入栈
+    return true;    // v 及后代可以拓扑排序
+}
+
 
 #endif //DATASTRUCTURES_GRAPH_H

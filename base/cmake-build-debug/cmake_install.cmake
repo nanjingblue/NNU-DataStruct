@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/cherry/Documents/workspace/C++/DataStructures/base
+# Install script for directory: C:/workspace/C++/DataStructures/base
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,37 +39,37 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/01LineTable/cmake_install.cmake")
+  include("C:/workspace/C++/DataStructures/base/cmake-build-debug/01LineTable/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/cmake_install.cmake")
+  include("C:/workspace/C++/DataStructures/base/cmake-build-debug/02StacksAndQueues/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/03String/cmake_install.cmake")
+  include("C:/workspace/C++/DataStructures/base/cmake-build-debug/03String/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/04ArraysAndSpecialMatrices/cmake_install.cmake")
+  include("C:/workspace/C++/DataStructures/base/cmake-build-debug/04ArraysAndSpecialMatrices/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/05GeneralizedTable/cmake_install.cmake")
+  include("C:/workspace/C++/DataStructures/base/cmake-build-debug/05GeneralizedTable/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/06TreeAndBiTree/cmake_install.cmake")
+  include("C:/workspace/C++/DataStructures/base/cmake-build-debug/06TreeAndBiTree/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/THU_DS/cmake_install.cmake")
+  include("C:/workspace/C++/DataStructures/base/cmake-build-debug/THU_DS/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -80,5 +80,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/workspace/C++/DataStructures/base/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

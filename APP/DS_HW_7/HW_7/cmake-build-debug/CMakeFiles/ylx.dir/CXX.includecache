@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/workspace/C++/DataStructures/APP/DS_HW_7/HW_7/ylx.cpp
+iostream
+-
+string
+-
+ctime
+-
+cmath
+-
+queue
+-
+vector
+-
+cstring
+-
+

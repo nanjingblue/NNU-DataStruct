@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\cherry\Documents\workspace\C++\DataStructures\base
+CMAKE_SOURCE_DIR = C:\workspace\C++\DataStructures\base
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug
+CMAKE_BINARY_DIR = C:\workspace\C++\DataStructures\base\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include 04ArraysAndSpecialMatrices/CMakeFiles/specialMatrices02.dir/depend.make
@@ -68,16 +68,16 @@ include 04ArraysAndSpecialMatrices/CMakeFiles/specialMatrices02.dir/flags.make
 04ArraysAndSpecialMatrices/CMakeFiles/specialMatrices02.dir/specialMatrices02.cpp.obj: 04ArraysAndSpecialMatrices/CMakeFiles/specialMatrices02.dir/flags.make
 04ArraysAndSpecialMatrices/CMakeFiles/specialMatrices02.dir/specialMatrices02.cpp.obj: 04ArraysAndSpecialMatrices/CMakeFiles/specialMatrices02.dir/includes_CXX.rsp
 04ArraysAndSpecialMatrices/CMakeFiles/specialMatrices02.dir/specialMatrices02.cpp.obj: ../04ArraysAndSpecialMatrices/specialMatrices02.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object 04ArraysAndSpecialMatrices/CMakeFiles/specialMatrices02.dir/specialMatrices02.cpp.obj"
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug\04ArraysAndSpecialMatrices && C:\env\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\specialMatrices02.dir\specialMatrices02.cpp.obj -c C:\Users\cherry\Documents\workspace\C++\DataStructures\base\04ArraysAndSpecialMatrices\specialMatrices02.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\workspace\C++\DataStructures\base\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object 04ArraysAndSpecialMatrices/CMakeFiles/specialMatrices02.dir/specialMatrices02.cpp.obj"
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug\04ArraysAndSpecialMatrices && C:\env\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\specialMatrices02.dir\specialMatrices02.cpp.obj -c C:\workspace\C++\DataStructures\base\04ArraysAndSpecialMatrices\specialMatrices02.cpp
 
 04ArraysAndSpecialMatrices/CMakeFiles/specialMatrices02.dir/specialMatrices02.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/specialMatrices02.dir/specialMatrices02.cpp.i"
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug\04ArraysAndSpecialMatrices && C:\env\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\cherry\Documents\workspace\C++\DataStructures\base\04ArraysAndSpecialMatrices\specialMatrices02.cpp > CMakeFiles\specialMatrices02.dir\specialMatrices02.cpp.i
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug\04ArraysAndSpecialMatrices && C:\env\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\workspace\C++\DataStructures\base\04ArraysAndSpecialMatrices\specialMatrices02.cpp > CMakeFiles\specialMatrices02.dir\specialMatrices02.cpp.i
 
 04ArraysAndSpecialMatrices/CMakeFiles/specialMatrices02.dir/specialMatrices02.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/specialMatrices02.dir/specialMatrices02.cpp.s"
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug\04ArraysAndSpecialMatrices && C:\env\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\cherry\Documents\workspace\C++\DataStructures\base\04ArraysAndSpecialMatrices\specialMatrices02.cpp -o CMakeFiles\specialMatrices02.dir\specialMatrices02.cpp.s
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug\04ArraysAndSpecialMatrices && C:\env\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\workspace\C++\DataStructures\base\04ArraysAndSpecialMatrices\specialMatrices02.cpp -o CMakeFiles\specialMatrices02.dir\specialMatrices02.cpp.s
 
 # Object files for target specialMatrices02
 specialMatrices02_OBJECTS = \
@@ -91,18 +91,18 @@ specialMatrices02_EXTERNAL_OBJECTS =
 04ArraysAndSpecialMatrices/specialMatrices02.exe: 04ArraysAndSpecialMatrices/CMakeFiles/specialMatrices02.dir/linklibs.rsp
 04ArraysAndSpecialMatrices/specialMatrices02.exe: 04ArraysAndSpecialMatrices/CMakeFiles/specialMatrices02.dir/objects1.rsp
 04ArraysAndSpecialMatrices/specialMatrices02.exe: 04ArraysAndSpecialMatrices/CMakeFiles/specialMatrices02.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable specialMatrices02.exe"
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug\04ArraysAndSpecialMatrices && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\specialMatrices02.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\workspace\C++\DataStructures\base\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable specialMatrices02.exe"
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug\04ArraysAndSpecialMatrices && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\specialMatrices02.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 04ArraysAndSpecialMatrices/CMakeFiles/specialMatrices02.dir/build: 04ArraysAndSpecialMatrices/specialMatrices02.exe
 .PHONY : 04ArraysAndSpecialMatrices/CMakeFiles/specialMatrices02.dir/build
 
 04ArraysAndSpecialMatrices/CMakeFiles/specialMatrices02.dir/clean:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug\04ArraysAndSpecialMatrices && $(CMAKE_COMMAND) -P CMakeFiles\specialMatrices02.dir\cmake_clean.cmake
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug\04ArraysAndSpecialMatrices && $(CMAKE_COMMAND) -P CMakeFiles\specialMatrices02.dir\cmake_clean.cmake
 .PHONY : 04ArraysAndSpecialMatrices/CMakeFiles/specialMatrices02.dir/clean
 
 04ArraysAndSpecialMatrices/CMakeFiles/specialMatrices02.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\cherry\Documents\workspace\C++\DataStructures\base C:\Users\cherry\Documents\workspace\C++\DataStructures\base\04ArraysAndSpecialMatrices C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug\04ArraysAndSpecialMatrices C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug\04ArraysAndSpecialMatrices\CMakeFiles\specialMatrices02.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\workspace\C++\DataStructures\base C:\workspace\C++\DataStructures\base\04ArraysAndSpecialMatrices C:\workspace\C++\DataStructures\base\cmake-build-debug C:\workspace\C++\DataStructures\base\cmake-build-debug\04ArraysAndSpecialMatrices C:\workspace\C++\DataStructures\base\cmake-build-debug\04ArraysAndSpecialMatrices\CMakeFiles\specialMatrices02.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : 04ArraysAndSpecialMatrices/CMakeFiles/specialMatrices02.dir/depend
 

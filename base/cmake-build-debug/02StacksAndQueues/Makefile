@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\cherry\Documents\workspace\C++\DataStructures\base
+CMAKE_SOURCE_DIR = C:\workspace\C++\DataStructures\base
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug
+CMAKE_BINARY_DIR = C:\workspace\C++\DataStructures\base\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,14 +86,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug\CMakeFiles C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug\02StacksAndQueues\\CMakeFiles\progress.marks
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 02StacksAndQueues/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug\CMakeFiles 0
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\workspace\C++\DataStructures\base\cmake-build-debug\CMakeFiles C:\workspace\C++\DataStructures\base\cmake-build-debug\02StacksAndQueues\\CMakeFiles\progress.marks
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 02StacksAndQueues/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\workspace\C++\DataStructures\base\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 02StacksAndQueues/clean
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 02StacksAndQueues/clean
 .PHONY : clean
 
 # The main clean target
@@ -102,22 +102,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 02StacksAndQueues/preinstall
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 02StacksAndQueues/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 02StacksAndQueues/preinstall
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 02StacksAndQueues/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 02StacksAndQueues/CMakeFiles/StackApp02.dir/rule:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 02StacksAndQueues/CMakeFiles/StackApp02.dir/rule
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 02StacksAndQueues/CMakeFiles/StackApp02.dir/rule
 .PHONY : 02StacksAndQueues/CMakeFiles/StackApp02.dir/rule
 
 # Convenience name for target.
@@ -126,12 +126,12 @@ StackApp02: 02StacksAndQueues/CMakeFiles/StackApp02.dir/rule
 
 # fast build rule for target.
 StackApp02/fast:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\StackApp02.dir\build.make 02StacksAndQueues/CMakeFiles/StackApp02.dir/build
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\StackApp02.dir\build.make 02StacksAndQueues/CMakeFiles/StackApp02.dir/build
 .PHONY : StackApp02/fast
 
 # Convenience name for target.
 02StacksAndQueues/CMakeFiles/stack01.dir/rule:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 02StacksAndQueues/CMakeFiles/stack01.dir/rule
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 02StacksAndQueues/CMakeFiles/stack01.dir/rule
 .PHONY : 02StacksAndQueues/CMakeFiles/stack01.dir/rule
 
 # Convenience name for target.
@@ -140,12 +140,12 @@ stack01: 02StacksAndQueues/CMakeFiles/stack01.dir/rule
 
 # fast build rule for target.
 stack01/fast:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\stack01.dir\build.make 02StacksAndQueues/CMakeFiles/stack01.dir/build
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\stack01.dir\build.make 02StacksAndQueues/CMakeFiles/stack01.dir/build
 .PHONY : stack01/fast
 
 # Convenience name for target.
 02StacksAndQueues/CMakeFiles/StackExercise04.dir/rule:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 02StacksAndQueues/CMakeFiles/StackExercise04.dir/rule
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 02StacksAndQueues/CMakeFiles/StackExercise04.dir/rule
 .PHONY : 02StacksAndQueues/CMakeFiles/StackExercise04.dir/rule
 
 # Convenience name for target.
@@ -154,12 +154,12 @@ StackExercise04: 02StacksAndQueues/CMakeFiles/StackExercise04.dir/rule
 
 # fast build rule for target.
 StackExercise04/fast:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\StackExercise04.dir\build.make 02StacksAndQueues/CMakeFiles/StackExercise04.dir/build
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\StackExercise04.dir\build.make 02StacksAndQueues/CMakeFiles/StackExercise04.dir/build
 .PHONY : StackExercise04/fast
 
 # Convenience name for target.
 02StacksAndQueues/CMakeFiles/StackApp01.dir/rule:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 02StacksAndQueues/CMakeFiles/StackApp01.dir/rule
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 02StacksAndQueues/CMakeFiles/StackApp01.dir/rule
 .PHONY : 02StacksAndQueues/CMakeFiles/StackApp01.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ StackApp01: 02StacksAndQueues/CMakeFiles/StackApp01.dir/rule
 
 # fast build rule for target.
 StackApp01/fast:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\StackApp01.dir\build.make 02StacksAndQueues/CMakeFiles/StackApp01.dir/build
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\StackApp01.dir\build.make 02StacksAndQueues/CMakeFiles/StackApp01.dir/build
 .PHONY : StackApp01/fast
 
 # Convenience name for target.
 02StacksAndQueues/CMakeFiles/stack02.dir/rule:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 02StacksAndQueues/CMakeFiles/stack02.dir/rule
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 02StacksAndQueues/CMakeFiles/stack02.dir/rule
 .PHONY : 02StacksAndQueues/CMakeFiles/stack02.dir/rule
 
 # Convenience name for target.
@@ -182,12 +182,12 @@ stack02: 02StacksAndQueues/CMakeFiles/stack02.dir/rule
 
 # fast build rule for target.
 stack02/fast:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\stack02.dir\build.make 02StacksAndQueues/CMakeFiles/stack02.dir/build
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\stack02.dir\build.make 02StacksAndQueues/CMakeFiles/stack02.dir/build
 .PHONY : stack02/fast
 
 # Convenience name for target.
 02StacksAndQueues/CMakeFiles/StackApp03.dir/rule:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 02StacksAndQueues/CMakeFiles/StackApp03.dir/rule
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 02StacksAndQueues/CMakeFiles/StackApp03.dir/rule
 .PHONY : 02StacksAndQueues/CMakeFiles/StackApp03.dir/rule
 
 # Convenience name for target.
@@ -196,12 +196,12 @@ StackApp03: 02StacksAndQueues/CMakeFiles/StackApp03.dir/rule
 
 # fast build rule for target.
 StackApp03/fast:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\StackApp03.dir\build.make 02StacksAndQueues/CMakeFiles/StackApp03.dir/build
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\StackApp03.dir\build.make 02StacksAndQueues/CMakeFiles/StackApp03.dir/build
 .PHONY : StackApp03/fast
 
 # Convenience name for target.
 02StacksAndQueues/CMakeFiles/StackExercise01.dir/rule:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 02StacksAndQueues/CMakeFiles/StackExercise01.dir/rule
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 02StacksAndQueues/CMakeFiles/StackExercise01.dir/rule
 .PHONY : 02StacksAndQueues/CMakeFiles/StackExercise01.dir/rule
 
 # Convenience name for target.
@@ -210,12 +210,12 @@ StackExercise01: 02StacksAndQueues/CMakeFiles/StackExercise01.dir/rule
 
 # fast build rule for target.
 StackExercise01/fast:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\StackExercise01.dir\build.make 02StacksAndQueues/CMakeFiles/StackExercise01.dir/build
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\StackExercise01.dir\build.make 02StacksAndQueues/CMakeFiles/StackExercise01.dir/build
 .PHONY : StackExercise01/fast
 
 # Convenience name for target.
 02StacksAndQueues/CMakeFiles/StackExercise02.dir/rule:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 02StacksAndQueues/CMakeFiles/StackExercise02.dir/rule
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 02StacksAndQueues/CMakeFiles/StackExercise02.dir/rule
 .PHONY : 02StacksAndQueues/CMakeFiles/StackExercise02.dir/rule
 
 # Convenience name for target.
@@ -224,12 +224,12 @@ StackExercise02: 02StacksAndQueues/CMakeFiles/StackExercise02.dir/rule
 
 # fast build rule for target.
 StackExercise02/fast:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\StackExercise02.dir\build.make 02StacksAndQueues/CMakeFiles/StackExercise02.dir/build
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\StackExercise02.dir\build.make 02StacksAndQueues/CMakeFiles/StackExercise02.dir/build
 .PHONY : StackExercise02/fast
 
 # Convenience name for target.
 02StacksAndQueues/CMakeFiles/StackExercise03.dir/rule:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 02StacksAndQueues/CMakeFiles/StackExercise03.dir/rule
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 02StacksAndQueues/CMakeFiles/StackExercise03.dir/rule
 .PHONY : 02StacksAndQueues/CMakeFiles/StackExercise03.dir/rule
 
 # Convenience name for target.
@@ -238,12 +238,12 @@ StackExercise03: 02StacksAndQueues/CMakeFiles/StackExercise03.dir/rule
 
 # fast build rule for target.
 StackExercise03/fast:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\StackExercise03.dir\build.make 02StacksAndQueues/CMakeFiles/StackExercise03.dir/build
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\StackExercise03.dir\build.make 02StacksAndQueues/CMakeFiles/StackExercise03.dir/build
 .PHONY : StackExercise03/fast
 
 # Convenience name for target.
 02StacksAndQueues/CMakeFiles/StackExercise05.dir/rule:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 02StacksAndQueues/CMakeFiles/StackExercise05.dir/rule
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 02StacksAndQueues/CMakeFiles/StackExercise05.dir/rule
 .PHONY : 02StacksAndQueues/CMakeFiles/StackExercise05.dir/rule
 
 # Convenience name for target.
@@ -252,12 +252,12 @@ StackExercise05: 02StacksAndQueues/CMakeFiles/StackExercise05.dir/rule
 
 # fast build rule for target.
 StackExercise05/fast:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\StackExercise05.dir\build.make 02StacksAndQueues/CMakeFiles/StackExercise05.dir/build
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\StackExercise05.dir\build.make 02StacksAndQueues/CMakeFiles/StackExercise05.dir/build
 .PHONY : StackExercise05/fast
 
 # Convenience name for target.
 02StacksAndQueues/CMakeFiles/Queue01.dir/rule:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 02StacksAndQueues/CMakeFiles/Queue01.dir/rule
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 02StacksAndQueues/CMakeFiles/Queue01.dir/rule
 .PHONY : 02StacksAndQueues/CMakeFiles/Queue01.dir/rule
 
 # Convenience name for target.
@@ -266,12 +266,12 @@ Queue01: 02StacksAndQueues/CMakeFiles/Queue01.dir/rule
 
 # fast build rule for target.
 Queue01/fast:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\Queue01.dir\build.make 02StacksAndQueues/CMakeFiles/Queue01.dir/build
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\Queue01.dir\build.make 02StacksAndQueues/CMakeFiles/Queue01.dir/build
 .PHONY : Queue01/fast
 
 # Convenience name for target.
 02StacksAndQueues/CMakeFiles/Queue02.dir/rule:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 02StacksAndQueues/CMakeFiles/Queue02.dir/rule
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 02StacksAndQueues/CMakeFiles/Queue02.dir/rule
 .PHONY : 02StacksAndQueues/CMakeFiles/Queue02.dir/rule
 
 # Convenience name for target.
@@ -280,12 +280,12 @@ Queue02: 02StacksAndQueues/CMakeFiles/Queue02.dir/rule
 
 # fast build rule for target.
 Queue02/fast:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\Queue02.dir\build.make 02StacksAndQueues/CMakeFiles/Queue02.dir/build
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\Queue02.dir\build.make 02StacksAndQueues/CMakeFiles/Queue02.dir/build
 .PHONY : Queue02/fast
 
 # Convenience name for target.
 02StacksAndQueues/CMakeFiles/QueueApp01.dir/rule:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 02StacksAndQueues/CMakeFiles/QueueApp01.dir/rule
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 02StacksAndQueues/CMakeFiles/QueueApp01.dir/rule
 .PHONY : 02StacksAndQueues/CMakeFiles/QueueApp01.dir/rule
 
 # Convenience name for target.
@@ -294,7 +294,7 @@ QueueApp01: 02StacksAndQueues/CMakeFiles/QueueApp01.dir/rule
 
 # fast build rule for target.
 QueueApp01/fast:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\QueueApp01.dir\build.make 02StacksAndQueues/CMakeFiles/QueueApp01.dir/build
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\QueueApp01.dir\build.make 02StacksAndQueues/CMakeFiles/QueueApp01.dir/build
 .PHONY : QueueApp01/fast
 
 Queue01.obj: Queue01.cpp.obj
@@ -302,7 +302,7 @@ Queue01.obj: Queue01.cpp.obj
 
 # target to build an object file
 Queue01.cpp.obj:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\Queue01.dir\build.make 02StacksAndQueues/CMakeFiles/Queue01.dir/Queue01.cpp.obj
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\Queue01.dir\build.make 02StacksAndQueues/CMakeFiles/Queue01.dir/Queue01.cpp.obj
 .PHONY : Queue01.cpp.obj
 
 Queue01.i: Queue01.cpp.i
@@ -310,7 +310,7 @@ Queue01.i: Queue01.cpp.i
 
 # target to preprocess a source file
 Queue01.cpp.i:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\Queue01.dir\build.make 02StacksAndQueues/CMakeFiles/Queue01.dir/Queue01.cpp.i
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\Queue01.dir\build.make 02StacksAndQueues/CMakeFiles/Queue01.dir/Queue01.cpp.i
 .PHONY : Queue01.cpp.i
 
 Queue01.s: Queue01.cpp.s
@@ -318,7 +318,7 @@ Queue01.s: Queue01.cpp.s
 
 # target to generate assembly for a file
 Queue01.cpp.s:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\Queue01.dir\build.make 02StacksAndQueues/CMakeFiles/Queue01.dir/Queue01.cpp.s
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\Queue01.dir\build.make 02StacksAndQueues/CMakeFiles/Queue01.dir/Queue01.cpp.s
 .PHONY : Queue01.cpp.s
 
 Queue02.obj: Queue02.cpp.obj
@@ -326,7 +326,7 @@ Queue02.obj: Queue02.cpp.obj
 
 # target to build an object file
 Queue02.cpp.obj:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\Queue02.dir\build.make 02StacksAndQueues/CMakeFiles/Queue02.dir/Queue02.cpp.obj
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\Queue02.dir\build.make 02StacksAndQueues/CMakeFiles/Queue02.dir/Queue02.cpp.obj
 .PHONY : Queue02.cpp.obj
 
 Queue02.i: Queue02.cpp.i
@@ -334,7 +334,7 @@ Queue02.i: Queue02.cpp.i
 
 # target to preprocess a source file
 Queue02.cpp.i:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\Queue02.dir\build.make 02StacksAndQueues/CMakeFiles/Queue02.dir/Queue02.cpp.i
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\Queue02.dir\build.make 02StacksAndQueues/CMakeFiles/Queue02.dir/Queue02.cpp.i
 .PHONY : Queue02.cpp.i
 
 Queue02.s: Queue02.cpp.s
@@ -342,7 +342,7 @@ Queue02.s: Queue02.cpp.s
 
 # target to generate assembly for a file
 Queue02.cpp.s:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\Queue02.dir\build.make 02StacksAndQueues/CMakeFiles/Queue02.dir/Queue02.cpp.s
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\Queue02.dir\build.make 02StacksAndQueues/CMakeFiles/Queue02.dir/Queue02.cpp.s
 .PHONY : Queue02.cpp.s
 
 QueueApp01.obj: QueueApp01.cpp.obj
@@ -350,7 +350,7 @@ QueueApp01.obj: QueueApp01.cpp.obj
 
 # target to build an object file
 QueueApp01.cpp.obj:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\QueueApp01.dir\build.make 02StacksAndQueues/CMakeFiles/QueueApp01.dir/QueueApp01.cpp.obj
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\QueueApp01.dir\build.make 02StacksAndQueues/CMakeFiles/QueueApp01.dir/QueueApp01.cpp.obj
 .PHONY : QueueApp01.cpp.obj
 
 QueueApp01.i: QueueApp01.cpp.i
@@ -358,7 +358,7 @@ QueueApp01.i: QueueApp01.cpp.i
 
 # target to preprocess a source file
 QueueApp01.cpp.i:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\QueueApp01.dir\build.make 02StacksAndQueues/CMakeFiles/QueueApp01.dir/QueueApp01.cpp.i
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\QueueApp01.dir\build.make 02StacksAndQueues/CMakeFiles/QueueApp01.dir/QueueApp01.cpp.i
 .PHONY : QueueApp01.cpp.i
 
 QueueApp01.s: QueueApp01.cpp.s
@@ -366,7 +366,7 @@ QueueApp01.s: QueueApp01.cpp.s
 
 # target to generate assembly for a file
 QueueApp01.cpp.s:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\QueueApp01.dir\build.make 02StacksAndQueues/CMakeFiles/QueueApp01.dir/QueueApp01.cpp.s
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\QueueApp01.dir\build.make 02StacksAndQueues/CMakeFiles/QueueApp01.dir/QueueApp01.cpp.s
 .PHONY : QueueApp01.cpp.s
 
 Source/SeqStack.obj: Source/SeqStack.cpp.obj
@@ -374,7 +374,7 @@ Source/SeqStack.obj: Source/SeqStack.cpp.obj
 
 # target to build an object file
 Source/SeqStack.cpp.obj:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\stack01.dir\build.make 02StacksAndQueues/CMakeFiles/stack01.dir/Source/SeqStack.cpp.obj
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\stack01.dir\build.make 02StacksAndQueues/CMakeFiles/stack01.dir/Source/SeqStack.cpp.obj
 .PHONY : Source/SeqStack.cpp.obj
 
 Source/SeqStack.i: Source/SeqStack.cpp.i
@@ -382,7 +382,7 @@ Source/SeqStack.i: Source/SeqStack.cpp.i
 
 # target to preprocess a source file
 Source/SeqStack.cpp.i:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\stack01.dir\build.make 02StacksAndQueues/CMakeFiles/stack01.dir/Source/SeqStack.cpp.i
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\stack01.dir\build.make 02StacksAndQueues/CMakeFiles/stack01.dir/Source/SeqStack.cpp.i
 .PHONY : Source/SeqStack.cpp.i
 
 Source/SeqStack.s: Source/SeqStack.cpp.s
@@ -390,7 +390,7 @@ Source/SeqStack.s: Source/SeqStack.cpp.s
 
 # target to generate assembly for a file
 Source/SeqStack.cpp.s:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\stack01.dir\build.make 02StacksAndQueues/CMakeFiles/stack01.dir/Source/SeqStack.cpp.s
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\stack01.dir\build.make 02StacksAndQueues/CMakeFiles/stack01.dir/Source/SeqStack.cpp.s
 .PHONY : Source/SeqStack.cpp.s
 
 StackApp01.obj: StackApp01.cpp.obj
@@ -398,7 +398,7 @@ StackApp01.obj: StackApp01.cpp.obj
 
 # target to build an object file
 StackApp01.cpp.obj:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\StackApp01.dir\build.make 02StacksAndQueues/CMakeFiles/StackApp01.dir/StackApp01.cpp.obj
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\StackApp01.dir\build.make 02StacksAndQueues/CMakeFiles/StackApp01.dir/StackApp01.cpp.obj
 .PHONY : StackApp01.cpp.obj
 
 StackApp01.i: StackApp01.cpp.i
@@ -406,7 +406,7 @@ StackApp01.i: StackApp01.cpp.i
 
 # target to preprocess a source file
 StackApp01.cpp.i:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\StackApp01.dir\build.make 02StacksAndQueues/CMakeFiles/StackApp01.dir/StackApp01.cpp.i
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\StackApp01.dir\build.make 02StacksAndQueues/CMakeFiles/StackApp01.dir/StackApp01.cpp.i
 .PHONY : StackApp01.cpp.i
 
 StackApp01.s: StackApp01.cpp.s
@@ -414,7 +414,7 @@ StackApp01.s: StackApp01.cpp.s
 
 # target to generate assembly for a file
 StackApp01.cpp.s:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\StackApp01.dir\build.make 02StacksAndQueues/CMakeFiles/StackApp01.dir/StackApp01.cpp.s
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\StackApp01.dir\build.make 02StacksAndQueues/CMakeFiles/StackApp01.dir/StackApp01.cpp.s
 .PHONY : StackApp01.cpp.s
 
 StackApp02.obj: StackApp02.cpp.obj
@@ -422,7 +422,7 @@ StackApp02.obj: StackApp02.cpp.obj
 
 # target to build an object file
 StackApp02.cpp.obj:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\StackApp02.dir\build.make 02StacksAndQueues/CMakeFiles/StackApp02.dir/StackApp02.cpp.obj
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\StackApp02.dir\build.make 02StacksAndQueues/CMakeFiles/StackApp02.dir/StackApp02.cpp.obj
 .PHONY : StackApp02.cpp.obj
 
 StackApp02.i: StackApp02.cpp.i
@@ -430,7 +430,7 @@ StackApp02.i: StackApp02.cpp.i
 
 # target to preprocess a source file
 StackApp02.cpp.i:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\StackApp02.dir\build.make 02StacksAndQueues/CMakeFiles/StackApp02.dir/StackApp02.cpp.i
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\StackApp02.dir\build.make 02StacksAndQueues/CMakeFiles/StackApp02.dir/StackApp02.cpp.i
 .PHONY : StackApp02.cpp.i
 
 StackApp02.s: StackApp02.cpp.s
@@ -438,7 +438,7 @@ StackApp02.s: StackApp02.cpp.s
 
 # target to generate assembly for a file
 StackApp02.cpp.s:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\StackApp02.dir\build.make 02StacksAndQueues/CMakeFiles/StackApp02.dir/StackApp02.cpp.s
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\StackApp02.dir\build.make 02StacksAndQueues/CMakeFiles/StackApp02.dir/StackApp02.cpp.s
 .PHONY : StackApp02.cpp.s
 
 StackApp03.obj: StackApp03.cpp.obj
@@ -446,7 +446,7 @@ StackApp03.obj: StackApp03.cpp.obj
 
 # target to build an object file
 StackApp03.cpp.obj:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\StackApp03.dir\build.make 02StacksAndQueues/CMakeFiles/StackApp03.dir/StackApp03.cpp.obj
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\StackApp03.dir\build.make 02StacksAndQueues/CMakeFiles/StackApp03.dir/StackApp03.cpp.obj
 .PHONY : StackApp03.cpp.obj
 
 StackApp03.i: StackApp03.cpp.i
@@ -454,7 +454,7 @@ StackApp03.i: StackApp03.cpp.i
 
 # target to preprocess a source file
 StackApp03.cpp.i:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\StackApp03.dir\build.make 02StacksAndQueues/CMakeFiles/StackApp03.dir/StackApp03.cpp.i
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\StackApp03.dir\build.make 02StacksAndQueues/CMakeFiles/StackApp03.dir/StackApp03.cpp.i
 .PHONY : StackApp03.cpp.i
 
 StackApp03.s: StackApp03.cpp.s
@@ -462,7 +462,7 @@ StackApp03.s: StackApp03.cpp.s
 
 # target to generate assembly for a file
 StackApp03.cpp.s:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\StackApp03.dir\build.make 02StacksAndQueues/CMakeFiles/StackApp03.dir/StackApp03.cpp.s
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\StackApp03.dir\build.make 02StacksAndQueues/CMakeFiles/StackApp03.dir/StackApp03.cpp.s
 .PHONY : StackApp03.cpp.s
 
 StackExercise01.obj: StackExercise01.cpp.obj
@@ -470,7 +470,7 @@ StackExercise01.obj: StackExercise01.cpp.obj
 
 # target to build an object file
 StackExercise01.cpp.obj:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\StackExercise01.dir\build.make 02StacksAndQueues/CMakeFiles/StackExercise01.dir/StackExercise01.cpp.obj
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\StackExercise01.dir\build.make 02StacksAndQueues/CMakeFiles/StackExercise01.dir/StackExercise01.cpp.obj
 .PHONY : StackExercise01.cpp.obj
 
 StackExercise01.i: StackExercise01.cpp.i
@@ -478,7 +478,7 @@ StackExercise01.i: StackExercise01.cpp.i
 
 # target to preprocess a source file
 StackExercise01.cpp.i:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\StackExercise01.dir\build.make 02StacksAndQueues/CMakeFiles/StackExercise01.dir/StackExercise01.cpp.i
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\StackExercise01.dir\build.make 02StacksAndQueues/CMakeFiles/StackExercise01.dir/StackExercise01.cpp.i
 .PHONY : StackExercise01.cpp.i
 
 StackExercise01.s: StackExercise01.cpp.s
@@ -486,7 +486,7 @@ StackExercise01.s: StackExercise01.cpp.s
 
 # target to generate assembly for a file
 StackExercise01.cpp.s:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\StackExercise01.dir\build.make 02StacksAndQueues/CMakeFiles/StackExercise01.dir/StackExercise01.cpp.s
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\StackExercise01.dir\build.make 02StacksAndQueues/CMakeFiles/StackExercise01.dir/StackExercise01.cpp.s
 .PHONY : StackExercise01.cpp.s
 
 StackExercise02.obj: StackExercise02.cpp.obj
@@ -494,7 +494,7 @@ StackExercise02.obj: StackExercise02.cpp.obj
 
 # target to build an object file
 StackExercise02.cpp.obj:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\StackExercise02.dir\build.make 02StacksAndQueues/CMakeFiles/StackExercise02.dir/StackExercise02.cpp.obj
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\StackExercise02.dir\build.make 02StacksAndQueues/CMakeFiles/StackExercise02.dir/StackExercise02.cpp.obj
 .PHONY : StackExercise02.cpp.obj
 
 StackExercise02.i: StackExercise02.cpp.i
@@ -502,7 +502,7 @@ StackExercise02.i: StackExercise02.cpp.i
 
 # target to preprocess a source file
 StackExercise02.cpp.i:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\StackExercise02.dir\build.make 02StacksAndQueues/CMakeFiles/StackExercise02.dir/StackExercise02.cpp.i
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\StackExercise02.dir\build.make 02StacksAndQueues/CMakeFiles/StackExercise02.dir/StackExercise02.cpp.i
 .PHONY : StackExercise02.cpp.i
 
 StackExercise02.s: StackExercise02.cpp.s
@@ -510,7 +510,7 @@ StackExercise02.s: StackExercise02.cpp.s
 
 # target to generate assembly for a file
 StackExercise02.cpp.s:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\StackExercise02.dir\build.make 02StacksAndQueues/CMakeFiles/StackExercise02.dir/StackExercise02.cpp.s
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\StackExercise02.dir\build.make 02StacksAndQueues/CMakeFiles/StackExercise02.dir/StackExercise02.cpp.s
 .PHONY : StackExercise02.cpp.s
 
 StackExercise03.obj: StackExercise03.cpp.obj
@@ -518,7 +518,7 @@ StackExercise03.obj: StackExercise03.cpp.obj
 
 # target to build an object file
 StackExercise03.cpp.obj:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\StackExercise03.dir\build.make 02StacksAndQueues/CMakeFiles/StackExercise03.dir/StackExercise03.cpp.obj
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\StackExercise03.dir\build.make 02StacksAndQueues/CMakeFiles/StackExercise03.dir/StackExercise03.cpp.obj
 .PHONY : StackExercise03.cpp.obj
 
 StackExercise03.i: StackExercise03.cpp.i
@@ -526,7 +526,7 @@ StackExercise03.i: StackExercise03.cpp.i
 
 # target to preprocess a source file
 StackExercise03.cpp.i:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\StackExercise03.dir\build.make 02StacksAndQueues/CMakeFiles/StackExercise03.dir/StackExercise03.cpp.i
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\StackExercise03.dir\build.make 02StacksAndQueues/CMakeFiles/StackExercise03.dir/StackExercise03.cpp.i
 .PHONY : StackExercise03.cpp.i
 
 StackExercise03.s: StackExercise03.cpp.s
@@ -534,7 +534,7 @@ StackExercise03.s: StackExercise03.cpp.s
 
 # target to generate assembly for a file
 StackExercise03.cpp.s:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\StackExercise03.dir\build.make 02StacksAndQueues/CMakeFiles/StackExercise03.dir/StackExercise03.cpp.s
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\StackExercise03.dir\build.make 02StacksAndQueues/CMakeFiles/StackExercise03.dir/StackExercise03.cpp.s
 .PHONY : StackExercise03.cpp.s
 
 StackExercise04.obj: StackExercise04.cpp.obj
@@ -542,7 +542,7 @@ StackExercise04.obj: StackExercise04.cpp.obj
 
 # target to build an object file
 StackExercise04.cpp.obj:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\StackExercise04.dir\build.make 02StacksAndQueues/CMakeFiles/StackExercise04.dir/StackExercise04.cpp.obj
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\StackExercise04.dir\build.make 02StacksAndQueues/CMakeFiles/StackExercise04.dir/StackExercise04.cpp.obj
 .PHONY : StackExercise04.cpp.obj
 
 StackExercise04.i: StackExercise04.cpp.i
@@ -550,7 +550,7 @@ StackExercise04.i: StackExercise04.cpp.i
 
 # target to preprocess a source file
 StackExercise04.cpp.i:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\StackExercise04.dir\build.make 02StacksAndQueues/CMakeFiles/StackExercise04.dir/StackExercise04.cpp.i
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\StackExercise04.dir\build.make 02StacksAndQueues/CMakeFiles/StackExercise04.dir/StackExercise04.cpp.i
 .PHONY : StackExercise04.cpp.i
 
 StackExercise04.s: StackExercise04.cpp.s
@@ -558,7 +558,7 @@ StackExercise04.s: StackExercise04.cpp.s
 
 # target to generate assembly for a file
 StackExercise04.cpp.s:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\StackExercise04.dir\build.make 02StacksAndQueues/CMakeFiles/StackExercise04.dir/StackExercise04.cpp.s
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\StackExercise04.dir\build.make 02StacksAndQueues/CMakeFiles/StackExercise04.dir/StackExercise04.cpp.s
 .PHONY : StackExercise04.cpp.s
 
 StackExercise05.obj: StackExercise05.cpp.obj
@@ -566,7 +566,7 @@ StackExercise05.obj: StackExercise05.cpp.obj
 
 # target to build an object file
 StackExercise05.cpp.obj:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\StackExercise05.dir\build.make 02StacksAndQueues/CMakeFiles/StackExercise05.dir/StackExercise05.cpp.obj
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\StackExercise05.dir\build.make 02StacksAndQueues/CMakeFiles/StackExercise05.dir/StackExercise05.cpp.obj
 .PHONY : StackExercise05.cpp.obj
 
 StackExercise05.i: StackExercise05.cpp.i
@@ -574,7 +574,7 @@ StackExercise05.i: StackExercise05.cpp.i
 
 # target to preprocess a source file
 StackExercise05.cpp.i:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\StackExercise05.dir\build.make 02StacksAndQueues/CMakeFiles/StackExercise05.dir/StackExercise05.cpp.i
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\StackExercise05.dir\build.make 02StacksAndQueues/CMakeFiles/StackExercise05.dir/StackExercise05.cpp.i
 .PHONY : StackExercise05.cpp.i
 
 StackExercise05.s: StackExercise05.cpp.s
@@ -582,7 +582,7 @@ StackExercise05.s: StackExercise05.cpp.s
 
 # target to generate assembly for a file
 StackExercise05.cpp.s:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\StackExercise05.dir\build.make 02StacksAndQueues/CMakeFiles/StackExercise05.dir/StackExercise05.cpp.s
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\StackExercise05.dir\build.make 02StacksAndQueues/CMakeFiles/StackExercise05.dir/StackExercise05.cpp.s
 .PHONY : StackExercise05.cpp.s
 
 stack01.obj: stack01.cpp.obj
@@ -590,7 +590,7 @@ stack01.obj: stack01.cpp.obj
 
 # target to build an object file
 stack01.cpp.obj:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\stack01.dir\build.make 02StacksAndQueues/CMakeFiles/stack01.dir/stack01.cpp.obj
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\stack01.dir\build.make 02StacksAndQueues/CMakeFiles/stack01.dir/stack01.cpp.obj
 .PHONY : stack01.cpp.obj
 
 stack01.i: stack01.cpp.i
@@ -598,7 +598,7 @@ stack01.i: stack01.cpp.i
 
 # target to preprocess a source file
 stack01.cpp.i:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\stack01.dir\build.make 02StacksAndQueues/CMakeFiles/stack01.dir/stack01.cpp.i
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\stack01.dir\build.make 02StacksAndQueues/CMakeFiles/stack01.dir/stack01.cpp.i
 .PHONY : stack01.cpp.i
 
 stack01.s: stack01.cpp.s
@@ -606,7 +606,7 @@ stack01.s: stack01.cpp.s
 
 # target to generate assembly for a file
 stack01.cpp.s:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\stack01.dir\build.make 02StacksAndQueues/CMakeFiles/stack01.dir/stack01.cpp.s
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\stack01.dir\build.make 02StacksAndQueues/CMakeFiles/stack01.dir/stack01.cpp.s
 .PHONY : stack01.cpp.s
 
 stack02.obj: stack02.cpp.obj
@@ -614,7 +614,7 @@ stack02.obj: stack02.cpp.obj
 
 # target to build an object file
 stack02.cpp.obj:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\stack02.dir\build.make 02StacksAndQueues/CMakeFiles/stack02.dir/stack02.cpp.obj
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\stack02.dir\build.make 02StacksAndQueues/CMakeFiles/stack02.dir/stack02.cpp.obj
 .PHONY : stack02.cpp.obj
 
 stack02.i: stack02.cpp.i
@@ -622,7 +622,7 @@ stack02.i: stack02.cpp.i
 
 # target to preprocess a source file
 stack02.cpp.i:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\stack02.dir\build.make 02StacksAndQueues/CMakeFiles/stack02.dir/stack02.cpp.i
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\stack02.dir\build.make 02StacksAndQueues/CMakeFiles/stack02.dir/stack02.cpp.i
 .PHONY : stack02.cpp.i
 
 stack02.s: stack02.cpp.s
@@ -630,7 +630,7 @@ stack02.s: stack02.cpp.s
 
 # target to generate assembly for a file
 stack02.cpp.s:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\stack02.dir\build.make 02StacksAndQueues/CMakeFiles/stack02.dir/stack02.cpp.s
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(MAKE) $(MAKESILENT) -f 02StacksAndQueues\CMakeFiles\stack02.dir\build.make 02StacksAndQueues/CMakeFiles/stack02.dir/stack02.cpp.s
 .PHONY : stack02.cpp.s
 
 # Help Target
@@ -707,6 +707,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Users\cherry\Documents\workspace\C++\DataStructures\base\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\workspace\C++\DataStructures\base\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

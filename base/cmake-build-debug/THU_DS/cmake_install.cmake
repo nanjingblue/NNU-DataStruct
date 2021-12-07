@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/cherry/Documents/workspace/C++/DataStructures/base/THU_DS
+# Install script for directory: C:/workspace/C++/DataStructures/base/THU_DS
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,11 +39,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/THU_DS/BibaryTree/cmake_install.cmake")
+  include("C:/workspace/C++/DataStructures/base/cmake-build-debug/THU_DS/BibaryTree/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/cherry/Documents/workspace/C++/DataStructures/base/cmake-build-debug/THU_DS/Graph/cmake_install.cmake")
+  include("C:/workspace/C++/DataStructures/base/cmake-build-debug/THU_DS/Graph/cmake_install.cmake")
 endif()
 
