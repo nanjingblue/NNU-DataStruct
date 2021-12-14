@@ -134,7 +134,7 @@ void CSTree<T>::free(CSNode<T> *p) {
 template<typename T>
 void CSTree<T>::preOrder(CSNode<T> * p) {
     if (p == nullptr) return;
-    std::cout << p->data;
+    std::cout << p->data << " " << p->degree << std::endl;
     preOrder(p->firstChild);
     preOrder(p->nextSibling);
 }

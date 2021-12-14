@@ -9,8 +9,8 @@ using namespace std;
 
 int main() {
 //    char arrPre[] = "ABDECF";
-//    char arrPre[] = "ab**cdef**g***hi**j**";
-    char arrPre[] = "abd**e**cf**hi**n**";
+    char arrPre[] = "ab**cdef**g***hi**j**";
+//    char arrPre[] = "abd**e**cf**hi**n**";
     char arrMid[] = "DBEAFC";
     char arrPost[] = "DEBFCA";
 //    char arrPost[] = "**D**EB**F*CA";

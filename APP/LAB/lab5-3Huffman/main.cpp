@@ -29,7 +29,7 @@ int main() {
     cout << "编译完成：" << endl;
     tree.printCode();
     while (1) {
-        cout << "请输入一个 01 序列进行译码：" << endl;
+        cout << "请输入01 序列译码：" << endl;
         string str;
         int i = 0;
         cin >> str;
@@ -41,7 +41,7 @@ int main() {
         cout << tree.Decode(code) << endl;
         code.clear();
         int x;
-        cout << "-------按 1 继续，按 0 退出--------" << endl;
+        cout << "1 继续 0 退出" << endl;
         cin >> x;
         if (x == 0)
             break;

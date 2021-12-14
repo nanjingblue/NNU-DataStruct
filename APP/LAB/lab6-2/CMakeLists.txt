@@ -3,4 +3,6 @@ project(lab6_2)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(lab6_2 main.cpp)
+include_directories(include)
+
+add_executable(lab6_2 main.cpp include/MGraph.h)

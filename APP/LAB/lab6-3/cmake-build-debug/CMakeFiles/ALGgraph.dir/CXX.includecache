@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/ALGraph.h
+iostream
+-
+vector
+-
+queue
+-
+fstream
+-
+string
+-
+CSTree.h
+../include/CSTree.h
+
+../include/CSTree.h
+vector
+-
+iostream
+-
+stack
+-
+
+C:/workspace/C++/DataStructures/APP/LAB/lab6-3/TestALGgraph.cpp
+iostream
+-
+ALGraph.h
+C:/workspace/C++/DataStructures/APP/LAB/lab6-3/ALGraph.h
+

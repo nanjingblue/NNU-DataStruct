@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\MG.dir/objects.a
+C:\env\mingw64\bin\ar.exe cr CMakeFiles\MG.dir/objects.a @CMakeFiles\MG.dir\objects1.rsp
+C:\env\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\MG.dir/objects.a -Wl,--no-whole-archive -o MG.exe -Wl,--out-implib,libMG.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\MG.dir\linklibs.rsp

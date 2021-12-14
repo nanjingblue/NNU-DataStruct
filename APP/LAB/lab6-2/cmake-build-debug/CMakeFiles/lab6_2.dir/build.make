@@ -66,6 +66,7 @@ include CMakeFiles/lab6_2.dir/progress.make
 include CMakeFiles/lab6_2.dir/flags.make
 
 CMakeFiles/lab6_2.dir/main.cpp.obj: CMakeFiles/lab6_2.dir/flags.make
+CMakeFiles/lab6_2.dir/main.cpp.obj: CMakeFiles/lab6_2.dir/includes_CXX.rsp
 CMakeFiles/lab6_2.dir/main.cpp.obj: ../main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\workspace\C++\DataStructures\APP\LAB\lab6-2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lab6_2.dir/main.cpp.obj"
 	C:\env\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab6_2.dir\main.cpp.obj -c C:\workspace\C++\DataStructures\APP\LAB\lab6-2\main.cpp

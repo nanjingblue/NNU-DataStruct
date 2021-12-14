@@ -31,7 +31,7 @@ private:
     template <typename PU> void PFS ( int, PU ); //（连通域）优先级搜索框架
 public:
     // 顶点
-    int n;
+    int n{};
     virtual int insert ( Tv const& ) = 0; //插入顶点 返回编号
     virtual Tv remove ( int ) = 0;   //删除顶点及其关联边，返回该顶点信息
     virtual Tv& vertex ( int ) = 0; //顶点v的数据（该顶点的确存在）
@@ -45,7 +45,7 @@ public:
     virtual int& parent ( int ) = 0; //顶点v在遍历树中癿父亲
     virtual int& priority ( int ) = 0; //顶点v在遍历树中癿优先级数
     // 边：返里约定，无向边均统一转化为斱向互逆对的一对有向边，从而将无向图规作有向图癿特例
-    int e; //边总数
+    int e{}; //边总数
     virtual bool exists ( int, int ) = 0; //边(v, u)是否存在
     virtual void insert ( Te const&, int, int, int ) = 0; //在顶点v和u乀间揑入权重为w癿边e
     virtual Te remove ( int, int ) = 0; //初除顶点v和u乀间癿边e，迒回诠边信息
@@ -169,5 +169,47 @@ bool Graph<Tv, Te>::TSort(int v, int & clock, std::stack <Tv> * S) {
     return true;    // v 及后代可以拓扑排序
 }
 
+template<typename Tv, typename Te>
+void Graph<Tv, Te>::bcc(int s) {    // 基于DFS的BCC分解算法
+    reset(); int clock = 0; int v = s; std::stack<int> S;
+    do {
+        if (UNDISCOVERED == status(v)) {
+            BCC(v, clock, S);
+            S.pop();    // 遍历返回后，弹出栈中最后一个顶点——当前连通域的起点
+        }
+    } while (s != (v = (++v % n)));
+}
+
+#define hca(x) (fTime(x))   // 利用此处闲置的 fTime[] 充当 hca[]
+template<typename Tv, typename Te>
+void Graph<Tv, Te>::BCC(int v, int &clock, std::stack<int> & S) {
+    hca(v) = dTime(v) = ++clock;
+    status(v) = DISCOVERED;
+    S.push(v);  // v 被发现并入栈
+    for (int u = firstNbr(v); -1 < u; u = nextNbr(v, u)) {
+        switch (status(u)) {
+            case UNDISCOVERED:
+                parent(u) = v;
+                type(v, u) = TREE;
+                BCC(u, clock, S);
+                if (hca(u) < dTime(v))
+                    hca(v) = min(hca(v), hca(u));
+                else {  // 否则，以v为关节点(u 以下即是一个BCC，且其中顶点此时正集中于栈S的顶部)
+                    while (v != S.pop());
+                    S.push(v);  // 最后一个顶点重新入栈——分摊不足一次
+                }
+                break;
+            case DISCOVERED:
+                type(v, u) = BACKWARD;  // 标记(v, u), 并按照越小越高的准则
+                if (u != parent(v)) hca(v) = min(hac(v), dTime(u));
+                break;
+            default:
+                type(v, u) = (dTime(v) < dTime(u)) ? FORWARD : CROSS;
+                break;
+        }
+    }
+    status(v) = VISITED;    // 对 v 的访问结束
+}
+#undef hca
 
 #endif //DATASTRUCTURES_GRAPH_H

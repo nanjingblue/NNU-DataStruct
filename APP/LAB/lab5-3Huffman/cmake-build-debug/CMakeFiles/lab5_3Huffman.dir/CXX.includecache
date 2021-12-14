@@ -6,13 +6,17 @@
 
 #IncludeRegexTransform: 
 
-C:/workspace/C++/DataStructures/APP/LAB/lab5-3Huffman/include/HuffmanTree.h
+../include/HuffmanTree.h
 iostream
 -
 vector
 -
 
-C:/workspace/C++/DataStructures/APP/LAB/lab5-3Huffman/include/Huffmantree.cpp
-Huffmantree.h
-C:/workspace/C++/DataStructures/APP/LAB/lab5-3Huffman/include/HuffmanTree.h
+C:/workspace/C++/DataStructures/APP/LAB/lab5-3Huffman/main.cpp
+iostream
+-
+vector
+-
+HuffmanTree.h
+C:/workspace/C++/DataStructures/APP/LAB/lab5-3Huffman/HuffmanTree.h
 

@@ -20,5 +20,8 @@ int main() {
     tree.preOrder();
     cout << endl;
     tree.pathToLeaves();
+    cout << "计算顶点度数：" << endl;
+    tree.Degree();
+    tree.preOrder();
     return 0;
 }
