@@ -39,7 +39,7 @@ private:
     BiNode<T> * search(BiNode<T> *p, T e);   // 关于根据值 e 查找结点
     BiNode<T> * searchParent(BiNode<T> *p, BiNode<T> *child);   // 关于查找指定结点的父结点
     void swapClild(BiNode<T> *p);        // 与交换每个节点的左右孩子相关
-    void pathToLeaf(BiNode<T> *p, string path);      // 与输出根节点到每个叶节点的路径有关
+    void pathToLeaf(BiNode<T> *p, string &path);      // 与输出根节点到每个叶节点的路径有关
     int leafCount(BiNode<T> *p);       // 与统计 叶子节点数 相关
     int singleBranchCount(BiNode<T> *p);        // 与统计 单分支节点数目有关
     int doubleBranchCount(BiNode<T> *p);        // 与统计 双分支节点数目有关
@@ -293,7 +293,7 @@ void BiTree<T>::swapClild() {
  *  边搜索边输出 遇到叶节点就输出
  */
 template<class T>
-void BiTree<T>::pathToLeaf(BiNode<T> *p, string path) {
+void BiTree<T>::pathToLeaf(BiNode<T> *p, string &path) {
     if (p == nullptr) return;
     if (p->leftChild == nullptr && p->rightChild == nullptr) {  // 是叶节点  输出路径 并返回
         cout << path << endl;

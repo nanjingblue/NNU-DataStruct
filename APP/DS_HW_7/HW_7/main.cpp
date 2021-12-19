@@ -9,18 +9,19 @@ using namespace std;
 
 int main() {
 //    char arrPre[] = "ABDECF";
-    char arrPre[] = "ab**cdef**g***hi**j**";
+//    char arrPre[] = "ab**cdef**g***hi**j**";
 //    char arrPre[] = "abd**e**cf**hi**n**";
-    char arrMid[] = "DBEAFC";
-    char arrPost[] = "DEBFCA";
-//    char arrPost[] = "**D**EB**F*CA";
-    int len = sizeof(arrPre) / sizeof(char);
-    vector<char> pre(arrPre, arrPre + len);
-    vector<char> mid(arrMid, arrMid + len);
+//    char arrMid[] = "DBEAFC";
+//    char arrPost[] = "DEBFCA";
+    char arrPost[] = "**D**EB**F*CA";
+    int len = sizeof(arrPost) / sizeof(char);
+//    vector<char> pre(arrPre, arrPre + len);
+//    vector<char> mid(arrMid, arrMid + len);
     vector<char> post(arrPost, arrPost + len);
-    BiTree<char> bit(pre);
+//    BiTree<char> bit(pre);
 //    BiTree<char> bit(pre, mid);
 //    BiTree<char> bit(mid, post, "mid post");
+    BiTree<char> bit(post, "post");
 
     cout << "Hello world" << endl;
 
